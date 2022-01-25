@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:menu#submenu-mangas-plasticas": {
+        "children": [
+            "menu-item#mangas-polietileno-transparente-y-color-a-medidas",
+            "menu-item#mangas-para-carpas-transparente-y-colores",
+            "menu-item#mangas-para-manteles-de-color"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#mangas-polietileno-transparente-y-color-a-medidas": {
+        "props": {
+            "id": "menu-item-mangas-polietileno-transparente-y-color-a-medidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mangas-plasticas/mangas-polietileno-transparente-y-color-a-medidas",
+                "noFollow": true,
+                "tagTitle": "Mangas polietileno transparente y color a medidas",
+                "text": "Mangas polietileno transparente y color a medidas"
+            }
+        }
+    },
+    "menu-item#mangas-para-carpas-transparente-y-colores": {
+        "props": {
+            "id": "menu-item-mangas-para-carpas-transparente-y-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mangas-plasticas/mangas-para-carpas-transparente-y-colores",
+                "noFollow": true,
+                "tagTitle": "Mangas para carpas transparente y colores",
+                "text": "Mangas para carpas transparente y colores"
+            }
+        }
+    },
+    "menu-item#mangas-para-manteles-de-color": {
+        "props": {
+            "id": "menu-item-mangas-para-manteles-de-color",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mangas-plasticas/mangas-para-manteles-de-color",
+                "noFollow": true,
+                "tagTitle": "Mangas para manteles de color",
+                "text": "Mangas para manteles de color"
+            }
+        }
+    }
+}

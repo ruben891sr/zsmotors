@@ -1,0 +1,95 @@
+{
+    "vtex.menu@2.x:menu#submenu-envases-termoformados": {
+        "children": [
+            "menu-item#porta-colacion-termoformados",
+            "menu-item#porta-fruta",
+            "menu-item#porta-pasteles",
+            "menu-item#porta-pollos",
+            "menu-item#porta-tortas"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#porta-tortas": {
+        "props": {
+            "id": "menu-item-porta-tortas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados/porta-tortas",
+                "noFollow": true,
+                "tagTitle": "Porta tortas",
+                "text": "Porta tortas"
+            }
+        }
+    },
+    "menu-item#porta-pollos": {
+        "props": {
+            "id": "menu-item-porta-pollos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados/porta-pollos",
+                "noFollow": true,
+                "tagTitle": "Porta pollos",
+                "text": "Porta pollos"
+            }
+        }
+    },
+    "menu-item#porta-colacion-termoformados": {
+        "props": {
+            "id": "menu-item-porta-colacion-termoformados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados/porta-colacion",
+                "noFollow": true,
+                "tagTitle": "Porta colación",
+                "text": "Porta colación"
+            }
+        }
+    },
+    "menu-item#porta-fruta": {
+        "props": {
+            "id": "menu-item-porta-fruta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados/porta-fruta",
+                "noFollow": true,
+                "tagTitle": "Porta fruta",
+                "text": "Porta fruta"
+            }
+        }
+    },
+    "menu-item#porta-pasteles": {
+        "props": {
+            "id": "menu-item-porta-pasteles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados/porta-pasteles",
+                "noFollow": true,
+                "tagTitle": "Porta pasteles",
+                "text": "Porta pasteles"
+            }
+        }
+    }
+}

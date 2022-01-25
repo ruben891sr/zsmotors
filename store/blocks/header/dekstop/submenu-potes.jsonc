@@ -1,0 +1,112 @@
+{
+    "vtex.menu@2.x:menu#submenu-potes": {
+        "children": [
+            "menu-item#potes-de-aluminio",
+            "menu-item#potes-plasticos-transparentes-con-tapa",
+            "menu-item#potes-plasticos-impreso-miel-con-tapa",
+            "menu-item#potes-plasticos-transparente-con-tapa-bisagra",
+            "menu-item#potes-plasticos-de-colores",
+            "menu-item#potes-plasticos-termicos"
+        ],
+        "props": {
+            "blockClass": "submenu-categories",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#potes-de-aluminio": {
+        "props": {
+            "id": "menu-item-potes-de-aluminio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-de-aluminio",
+                "noFollow": true,
+                "tagTitle": "Potes de aluminio",
+                "text": "Potes de aluminio"
+            }
+        }
+    },
+    "menu-item#potes-plasticos-transparentes-con-tapa": {
+        "props": {
+            "id": "menu-item-potes-plasticos-transparentes-con-tapa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-plasticos-transparentes-con-tapa",
+                "noFollow": true,
+                "tagTitle": "Potes plásticos transparentes con tapa",
+                "text": "Potes plásticos transparentes con tapa"
+            }
+        }
+    },
+    "menu-item#potes-plasticos-impreso-miel-con-tapa": {
+        "props": {
+            "id": "menu-item-potes-plasticos-impreso-miel-con-tapa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-plasticos-impreso-miel-con-tapa",
+                "noFollow": true,
+                "tagTitle": "Potes plásticos impreso miel con tapa",
+                "text": "Potes plásticos impreso miel con tapa"
+            }
+        }
+    },
+    "menu-item#potes-plasticos-transparente-con-tapa-bisagra": {
+        "props": {
+            "id": "menu-item-potes-plasticos-transparentes-con-tapa-bisagra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-plasticos-transparentes-con-tapa-bisagra",
+                "noFollow": true,
+                "tagTitle": "Potes plásticos transparentes con tapa bisagra",
+                "text": "Potes plásticos transparentes con tapa bisagra"
+            }
+        }
+    },
+    "menu-item#potes-plasticos-de-colores": {
+        "props": {
+            "id": "menu-item-potes-plasticos-de-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-plasticos-de-colores",
+                "noFollow": true,
+                "tagTitle": "Potes plásticos de colores",
+                "text": "Potes plásticos de colores"
+            }
+        }
+    },
+    "menu-item#potes-plasticos-termicos": {
+        "props": {
+            "id": "menu-item-potes-termicos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes/potes-termicos",
+                "noFollow": true,
+                "tagTitle": "Potes térmicos",
+                "text": "Potes térmicos"
+            }
+        }
+    }
+}

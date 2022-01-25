@@ -1,0 +1,333 @@
+{
+    "vtex.menu@2.x:menu#submenu-bolsas": {
+        "children": [
+            "menu-item#bolsas-baja-densidad-transparentes",
+            "menu-item#bolsas-tipo-camiseta-blancas-negras-y-colores",
+            "menu-item#bolsas-y-laminas-prepicado-alta-densidad",
+            "menu-item#bolsas-de-papel-planas",
+            "menu-item#bolsas-de-papel-kraft-con-manilla",
+            "menu-item#bolsas-de-papel-kraft-con-troquel-rinon",
+            "menu-item#bolsas-plasticas-de-colores",
+            "menu-item#bolsas-papel-de-colores",
+            "menu-item#bolsas-impresas",
+            "menu-item#bolsas-reutilizables",
+            "menu-item#bolsas-zipper-con-ventana",
+            "menu-item#bolsas-zipper-transparentes",
+            "menu-item#bolsas-de-polipropileno-transparentes",
+            "menu-item#bolsas-con-fuelle-para-uso-agricola",
+            "menu-item#bolsas-termicas-para-pollos",
+            "menu-item#bolsas-para-basura-negra",
+            "menu-item#bolsas-para-basura-color",
+            "menu-item#bolsas-para-hielo",
+            "menu-item#bolsas-para-vacio"
+        ],
+        "props": {
+            "blockClass": "submenu-categories",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#bolsas-baja-densidad-transparentes": {
+        "props": {
+            "id": "menu-item-bolsas-baja-densidad-transparentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-baja-densidad-transparentes",
+                "noFollow": true,
+                "tagTitle": "Bolsas baja densidad transparentes",
+                "text": "Bolsas baja densidad transparentes"
+            }
+        }
+    },
+    "menu-item#bolsas-tipo-camiseta-blancas-negras-y-colores": {
+        "props": {
+            "id": "menu-item-bolsas-tipo-camiseta-blancas-negras-y-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-tipo-camiseta-blancas-negras-y-colores",
+                "noFollow": true,
+                "tagTitle": "Bolsas tipo camiseta blancas, negras y colores",
+                "text": "Bolsas tipo camiseta blancas, negras y colores"
+            }
+        }
+    },
+    "menu-item#bolsas-y-laminas-prepicado-alta-densidad": {
+        "props": {
+            "id": "menu-item-bolsas-y-laminas-prepicado-alta-densidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-y-laminas-prepicado-alta-densidad",
+                "noFollow": true,
+                "tagTitle": "Bolsas y láminas prepicado alta densidad",
+                "text": "Bolsas y láminas prepicado alta densidad"
+            }
+        }
+    },
+    "menu-item#bolsas-de-papel-planas": {
+        "props": {
+            "id": "menu-item-bolsas-de-papel-planas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-de-papel-planas",
+                "noFollow": true,
+                "tagTitle": "Bolsas de papel planas",
+                "text": "Bolsas de papel planas"
+            }
+        }
+    },
+    "menu-item#bolsas-de-papel-kraft-con-manilla": {
+        "props": {
+            "id": "menu-item-bolsas-de-papel-kraft-con-manilla",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-de-papel-kraft-con-manilla",
+                "noFollow": true,
+                "tagTitle": "Bolsas de papel kraft con manilla",
+                "text": "Bolsas de papel kraft con manilla"
+            }
+        }
+    },
+    "menu-item#bolsas-de-papel-kraft-con-troquel-rinon": {
+        "props": {
+            "id": "menu-item-bolsas-de-papel-kraft-con-troquel-rinon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-de-papel-kraft-con-troquel-rinon",
+                "noFollow": true,
+                "tagTitle": "Bolsas de papel kraft con troquel riñón",
+                "text": "Bolsas de papel kraft con troquel riñón"
+            }
+        }
+    },
+    "menu-item#bolsas-plasticas-de-colores": {
+        "props": {
+            "id": "menu-item-bolsas-plasticas-de-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-plasticas-de-colores",
+                "noFollow": true,
+                "tagTitle": "Bolsas plásticas de colores",
+                "text": "Bolsas plásticas de colores"
+            }
+        }
+    },
+    "menu-item#bolsas-papel-de-colores": {
+        "props": {
+            "id": "menu-item-bolsas-papel-de-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-de-papel-de-colores",
+                "noFollow": true,
+                "tagTitle": "Bolsas de papel de colores",
+                "text": "Bolsas de papel de colores"
+            }
+        }
+    },
+    "menu-item#bolsas-impresas": {
+        "props": {
+            "id": "menu-item-bolsas-impresas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-impresas",
+                "noFollow": true,
+                "tagTitle": "Bolsas impresas",
+                "text": "Bolsas impresas"
+            }
+        }
+    },
+    "menu-item#bolsas-zipper-transparentes": {
+        "props": {
+            "id": "menu-item-bolsas-zipper-transparentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-zipper-transparentes",
+                "noFollow": true,
+                "tagTitle": "Bolsas zipper transparentes",
+                "text": "Bolsas zipper transparentes"
+            }
+        }
+    },
+    "menu-item#bolsas-zipper-con-ventana": {
+        "props": {
+            "id": "menu-item-bolsas-zipper-con-ventana",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-zipper-con-ventana",
+                "noFollow": true,
+                "tagTitle": "Bolsas zipper con ventana",
+                "text": "Bolsas zipper con ventana"
+            }
+        }
+    },
+    "menu-item#bolsas-de-polipropileno-transparentes": {
+        "props": {
+            "id": "menu-item-bolsas-de-polipropileno-transparentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-de-polipropileno-transparentes",
+                "noFollow": true,
+                "tagTitle": "Bolsas de polipropileno transparentes",
+                "text": "Bolsas de polipropileno transparentes"
+            }
+        }
+    },
+    "menu-item#bolsas-con-fuelle-para-uso-agricola": {
+        "props": {
+            "id": "menu-item-bolsas-con-fuelle-para-uso-agricola",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-con-fuelle-para-uso-agricola",
+                "noFollow": true,
+                "tagTitle": "Bolsas con fuelle para uso agrícola",
+                "text": "Bolsas con fuelle para uso agrícola"
+            }
+        }
+    },
+    "menu-item#bolsas-termicas-para-pollos": {
+        "props": {
+            "id": "menu-item-bolsas-termicas-para-pollos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-termicas-para-pollos",
+                "noFollow": true,
+                "tagTitle": "Bolsas térmicas para pollos",
+                "text": "Bolsas térmicas para pollos"
+            }
+        }
+    },
+    "menu-item#bolsas-para-basura-negra": {
+        "props": {
+            "id": "menu-item-bolsas-para-basura-negra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-para-basura-negra",
+                "noFollow": true,
+                "tagTitle": "Bolsas para basura negra",
+                "text": "Bolsas para basura negra"
+            }
+        }
+    },
+    "menu-item#bolsas-para-basura-color": {
+        "props": {
+            "id": "menu-item-bolsas-para-basura-color",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-para-basura-de-color",
+                "noFollow": true,
+                "tagTitle": "Bolsas para basura de color",
+                "text": "Bolsas para basura de color"
+            }
+        }
+    },
+    "menu-item#bolsas-reutilizables": {
+        "props": {
+            "id": "menu-item-bolsas-reutilizables",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-reutilizables",
+                "noFollow": true,
+                "tagTitle": "Bolsas reutilizables",
+                "text": "Bolsas reutilizables"
+            }
+        }
+    },
+    "menu-item#bolsas-para-hielo": {
+        "props": {
+            "id": "menu-item-bolsas-para-hielo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-para-hielo",
+                "noFollow": true,
+                "tagTitle": "Bolsas para hielo",
+                "text": "Bolsas para hielo"
+            }
+        }
+    },
+    "menu-item#bolsas-para-vacio": {
+        "props": {
+            "id": "menu-item-bolsas-para-vacio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas/bolsas-para-vacio",
+                "noFollow": true,
+                "tagTitle": "Bolsas para vacío",
+                "text": "Bolsas para vacío"
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.confirmationIconWrapper {
+  color: #4ea2e2;
+}
+.confirmationTitle {
+  font-family: "Lato-Bold";
+  color: #000000;
+}
+.confirmationTitle::after {
+  content: "\A Su pedido fue realizado con éxito";
+  white-space: pre;
+  font-size: 16px;
+}
+.confirmationMessage {
+  font-family: "Lato";
+  color: #000000;
+  margin-top: 2rem;
+}
+.noticeListItem {
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2f2;
+  padding: 1rem;
+}
+.noticesList {
+  background: #ffffff;
+  font-family: "Lato";
+  color: #000000;
+}
+.orderNumber {
+  font-family: "Lato-Bold";
+  color: #000000;
+  font-size: 24px;
+}
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button) {
+  background: #0060aa;
+  border-color: #0060aa;
+  border-radius: 0;
+}
+.updateOrderButton :global(.vtex-button__label),
+.myOrdersButton :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  font-size: 14px;
+}
+.cancelOrderButton :global(.vtex-button) {
+  border: 1px solid #0060aa;
+  border-radius: 0;
+}
+.cancelOrderButton :global(.vtex-button):hover {
+  background: #4ea2e2;
+}
+.cancelOrderButton :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+.cancelOrderButton :global(.vtex-button__label) {
+  color: #0060aa;
+  font-family: "Lato-Bold";
+  font-size: 14px;
+}
+.orderDatetime,
+.orderSoldBy,
+.productPrice {
+  font-family: "Lato-Bold";
+  color: #000000;
+  font-size: 14px;
+  position: relative;
+}
+.productPrice {
+
+    font-size: 16px;
+    padding-right: 1rem;
+   
+  }
+.orderDatetime {
+  margin-left: 1.5rem;
+}
+.orderDatetime::before {
+  content: "Realizado";
+  color: #000000;
+  font-size: 14px;
+  position: absolute;
+  background: #ffffff;
+  margin-left: -1.5rem;
+  padding-right: 0.2rem;
+}
+.section--paymentMethods, .section--pickupPackages {
+  border-bottom: 1px solid #0060aa;
+}
+.customerInfoListName,
+.customerInfoListEmail,
+.customerInfoListDocument,
+.customerInfoListPhone,
+.paymentGroup,
+.paymentValue,
+.packageHeader,
+.packageShippingEstimate,
+.addressContainer,
+.productName,
+.productQuantity,
+.totalListItemLabel,
+.totalListItemValue {
+  color: #000000;
+  font-family: "Lato-Bold";
+}
+.totalListItem:last-child {
+    font-size: 18px;
+
+}
+.totalListItem .totalListItemValue {
+    padding-right: 1rem;
+    
+}
+.packageHeader {
+  font-size: 0;
+  margin-bottom: 0;
+}
+.packageHeader::before {
+  content: "Entrega";
+  font-size: 18px;
+}
+.packageReceiverName {
+  display: none;
+}
+.productInfoColumn {
+    display: flex;
+}
+.orderPlacedWrapper {
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,90 @@
+.cartIcon {
+    overflow: visible !important;
+}
+
+.minicartIconContainer {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: flex-start;
+}
+
+.openIconContainer :global(.vtex-button__label)::before {
+    content: "Mi carrito";
+    font-family: "Lato";
+    font-size: 14px;
+    color: #000000;
+    text-transform: initial;
+    margin-right: 0.3rem;
+}
+
+.minicartQuantityBadgeDefault {
+    top: -0.3rem;
+    right: 0rem;
+    width: 10px;
+    height: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.minicartTitle {
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.minicartTitle::before {
+    content: "Carrito de Compras";
+    font-family: "Lato-Bold";
+    font-size: 22px;
+    color: #000000;
+    text-transform: initial;
+    margin-right: 0.3rem;
+}
+
+.minicartTitle::after {
+    content: "";
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    background: #0060aa;
+    position: absolute;
+    height: 1px;
+    bottom: -4px;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    background-color: #0060aa;
+    font-size: 0;
+    border-radius: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
+    background: #4EA2E2;
+    border: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::before {
+    content: "Finalizar Compra";
+    font-family: "Lato-Bold";
+    font-size: 16px;
+    text-transform: initial;
+}
+
+@media screen and (max-width: 1024px) {
+    .openIconContainer {
+        padding: 0;
+    }
+    .openIconContainer :global(.vtex-button__label)::before {
+        margin-right: 0;
+        font-size: 0px;
+    }
+    .cartIcon {
+        width: 14px;
+        height: 14px;
+        margin-top: 3px;
+    }
+}

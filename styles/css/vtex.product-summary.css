@@ -1,0 +1,101 @@
+.element :global(.vtex-product-summary-2-x-productBrand) {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-family: 'Lato-Bold';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    max-height: 4rem;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.element :global(.vtex-button) {
+    background: #ffffff;
+    border: 2px solid #0060aa;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.element :global(.vtex-button):hover {
+    background: #0060aa;
+}
+
+.element :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    color: #fff;
+}
+
+.element {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.element .imageNormal.image {
+    height: 276px !important;
+}
+
+.productNameContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nameContainer {
+    height: 50px;
+}
+
+.skuSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorTextContainer),
+.skuSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+    margin-left: 0px;
+}
+
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    height: fit-content;
+    background: #fff;
+    width: fit-content;
+}
+
+.imageContainer::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #00000005;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.SKUSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorName) {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .element :global(.vtex-button) {
+        padding: 0;
+    }
+    .element {
+        max-width: none;
+        box-sizing: border-box;
+        margin: unset;
+        padding: 2rem 0.2rem;
+        display: flex;
+    }
+    .element .imageNormal.image {
+        height: auto !important;
+        padding: 1rem 0;
+    }
+}

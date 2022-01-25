@@ -1,0 +1,49 @@
+.link--1,
+.link--2,
+.link--3,
+.link--4,
+.term,
+.link--5,
+.link--6,
+.link--7,
+.link--8,
+.link--9,
+.link--10,
+.link--11,
+.link--12,
+.link--13,
+.link--14,
+.link--15,
+.link--16,
+.link--17 {
+    font-size: 12px;
+    font-family: "Lato-Bold";
+    color: #888a8b;
+    text-transform: capitalize;
+}
+
+.homeIcon {
+    display: none !important;
+}
+
+.homeLink::before {
+    content: "Home";
+    font-size: 12px;
+    font-family: "Lato-Bold";
+    color: #888a8b;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .link,
+    .term {
+        display: inline-block;
+        width: fit-content;
+    }
+    .container {
+        width: max-content !important;
+        position: absolute;
+        left: 0;
+        padding: 0 1rem;
+    }
+}

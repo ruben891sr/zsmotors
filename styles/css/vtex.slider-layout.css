@@ -1,0 +1,62 @@
+:global(.vtex-slider-layout-0-x-paginationDot) {
+    background: #fff;
+    border: 1px solid #183152;
+    margin: 0 .4rem;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background: #183152!important;
+}
+
+.sliderArrows {
+    border-radius: 25px;
+    color: #fff;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon) {
+    background: #183152;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.paginationDotsContainer {
+    bottom: 12px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer) {
+    max-width: 1920px!important;
+}
+
+.sliderLeftArrow--main-banner {
+    padding-left: 2rem;
+}
+
+.sliderRightArrow--main-banner {
+    padding-right: 2rem;
+}
+
+.sliderLeftArrow--calugas,
+.sliderRightArrow--calugas {
+    padding: initial;
+}
+
+.sliderLeftArrow--especial,
+.sliderLeftArrow--mas-vendidos {
+    left: -1.5rem;
+}
+
+.sliderRightArrow--especial,
+.sliderRightArrow--mas-vendidos {
+    right: -1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderLeftArrow--especial,
+    .sliderLeftArrow--mas-vendidos {
+        left: 0rem;
+    }
+    .sliderRightArrow--especial,
+    .sliderRightArrow--mas-vendidos {
+        right: 0rem;
+    }
+}

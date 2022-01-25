@@ -1,0 +1,428 @@
+.infoCardContainer--icon-image {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.infoCardContainer--caluga-image {
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.infoCardCallActionContainer--icon-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none !important;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button) {
+    background: #0060aa;
+    border: 2px solid #0060aa;
+    padding: 0.5rem 2rem;
+    font-family: "Lato-Bold";
+    border-radius: 9px;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button):hover {
+    background: #183152;
+    border: 2px solid #183152;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button__label) {
+    font-size: 1rem;
+    font-family: "Lato-Bold";
+    text-transform: initial;
+    padding: 0 1.5rem;
+    color: #ffffff;
+}
+
+.infoCardCallActionContainer--caluga-image {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-decoration: none !important;
+    margin: 0;
+}
+
+.infoCardImageContainer--icon-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #4ea2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 8%;
+    background: #e7e7e74f;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.infoCardImageContainer--icon-image:hover {
+    background-color: #dde2f1;
+    border: 2px solid #dde2f1;
+}
+
+
+/* .infoCardImageContainer--icon-image::before {
+  position: absolute;
+  content: "";
+  width: 95px;
+  height: 95px;
+  display: flex;
+  top: -25%;
+  border-radius: 50%;
+  left: -25%;
+  border: 2px solid #4ea2e2;
+  z-index: -1;
+} */
+
+.infoCardCallActionText--icon-image {
+    color: #3d3d3d;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none !important;
+    font-family: "Lato-Thin";
+    height: 36px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.infoCardCallActionText--caluga-image {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+
+.infoCardImageContainer--caluga-image {
+    width: 95%;
+}
+
+.infoCardTextContainer--icon-image {
+    width: 100%;
+}
+
+.wrapper--caluga-image {
+    top: 28%;
+    left: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    color: #ffffff;
+}
+
+.imageElement--image-descto {
+    display: flex;
+    width: 100%;
+}
+
+.paragraph--caluga-image {
+    font-family: "Lato-Light";
+    margin: 0;
+}
+
+.strong--caluga-image {
+    font-family: "Lato-Bold";
+}
+
+.discountInsideContainer {
+    display: none;
+}
+
+.infoCardTextContainer--caluga-image {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.logoImage {
+    width: 110px;
+    height: 32px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: 1px solid #3d3d3d59;
+    border-radius: 25px;
+    height: 36px;
+    max-width: 198px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 12px;
+    font-family: "Lato-Bold";
+}
+
+.searchBarIcon--search {
+    margin-top: -10px;
+}
+
+.searchIcon {
+    overflow: visible !important;
+}
+
+.logoContainer {
+    margin-left: 2rem;
+}
+
+.imageElement--image-category {
+    display: flex;
+    width: 100%;
+}
+
+.imageElement--webpay,
+.imageElement--tarjetas,
+.imageElement--sr {
+    margin-right: 1rem;
+}
+
+.resultsList--search-mobile {
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    top: 69px;
+}
+
+.resultsList--search-desktop {
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    top: 18px;
+}
+
+.imageElement--junaplas-image {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.productNameContainer {
+    font-family: "Lato-Bold";
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.sellingPriceValue {
+    font-family: "Lato-Bold";
+    font-size: 26px;
+    color: #3d3d3d;
+}
+
+.price_sellingPriceLabel--product-details {
+    display: block;
+    font-size: 1rem;
+}
+
+.price_listPriceLabel {
+    text-decoration: none;
+    padding-left: 0px;
+    display: block;
+    font-size: 1rem;
+}
+
+.price_savingsContainer--product-details {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.frameAround,
+.skuSelectorInternalBox {
+    border-radius: 0;
+    border-width: 1px;
+}
+
+.skuSelectorName {
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.skuSelectorItemTextValue {
+    font-family: "Lato";
+    font-size: 14px;
+    color: #000000;
+}
+
+.skuSelectorSubcontainer {
+    margin-bottom: 0.5rem;
+}
+
+.priceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.price_listPriceContainer--product-details {
+    display: block;
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #888a8b;
+    font-family: "Lato";
+}
+
+.price_sellingPriceContainer--product-details {
+    font-family: "Lato-Bold";
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.backToTopButtonActive :global(.vtex-button) {
+    border-color: #f2f2f2;
+    background: #f2f2f2;
+}
+
+.backToTopButtonActive :global(.vtex-button__label) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.swiperCaret .caretIcon {
+    color: #888a8b;
+    width: 30px;
+    height: 30px;
+}
+
+.swiperCaretNext {
+    right: -0.7rem;
+}
+
+.swiperBullet {
+    background: #ffffff;
+    border: 1px solid #0060aa;
+    margin: 0 0.4rem;
+    opacity: 1;
+}
+
+.swiperBullet.swiperBullet--active {
+    background: #0060aa;
+}
+
+.infoCardContainer--sucursal-info {
+    flex-direction: column-reverse;
+}
+
+.paragraph--sucursal-info {
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+.infoCardImageContainer--sucursal-info,
+.infoCardTextContainer--sucursal-info {
+    width: 80%;
+}
+
+.searchBarContainer {
+    margin-right: 0.5rem;
+}
+
+.imageElement--image-tabla {
+    display: flex;
+    width: 100%;
+}
+
+.skuSelectorSelectContainer {
+    width: 100%;
+}
+
+.skuSelectorSelectContainer :global(.vtex-styleguide-9-x-container) {
+    border-radius: 4px;
+    border-width: 1px;
+    outline: 0;
+    font-size: 14px;
+    height: 40px;
+    font-family: "Lato";
+}
+
+.skuSelectorNameContainer {
+    margin-bottom: 0;
+}
+
+.skuSelectorTextContainer {
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.skuSelectorContainer {
+    margin: 0 !important;
+}
+
+.content--pdp-description {
+    font-family: "Lato";
+    line-height: 1.6;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    background: #f8f8f8;
+    color: #3d3d3d;
+    padding: .5rem;
+}
+
+.productDescriptionTitle--pdp-description {
+    font-family: "Lato-Bold";
+    font-size: 1rem;
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper--caluga-image {
+        font-size: 1rem;
+    }
+    .infoCardCallActionContainer--caluga-image :global(.vtex-button) {
+        padding: 0;
+    }
+    .infoCardContainer--caluga-image {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .infoCardTextContainer--caluga-image {
+        padding-left: 1rem;
+    }
+    .logoImage {
+        width: 83px;
+        height: 100%;
+        display: block;
+    }
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+        width: 90%;
+        margin: 0 auto;
+        max-width: initial;
+    }
+    .logoContainer {
+        margin-left: 0;
+        padding: 0;
+    }
+    .skuSelectorOptionsList {
+        margin-left: 0;
+    }
+    .skuSelectorTextContainer {
+        margin-left: 0;
+    }
+    .logoLink {
+        display: flex;
+        align-items: center;
+    }
+    .infoCardImageContainer--icon-image {
+        width: 80px;
+        height: 80px;
+    }
+    .infoCardCallActionText--icon-image {
+        font-size: .85rem;
+        font-family: "Lato";
+        height: 7px;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoCardImageContainer--sucursal-info,
+    .infoCardTextContainer--sucursal-info {
+        width: 100%;
+    }
+}

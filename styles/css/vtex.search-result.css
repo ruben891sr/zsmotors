@@ -1,0 +1,164 @@
+.orderByText {
+    font-family: "Lato";
+    color: #000000;
+    font-size: 14px;
+    text-transform: initial;
+}
+
+.filterPopupTitle {
+    color: #0060aa;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    text-transform: initial;
+}
+
+.orderByButton {
+    border: 1px solid #0060aa;
+    padding: 0.5rem;
+    border-radius: 0px;
+}
+
+.filterPopupArrowIcon {
+    padding-left: 0.5rem;
+}
+
+.filterMessage {
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+.filter__container {
+    border-color: #e7e7e7;
+}
+
+.filterTitle {
+    font-family: "Lato-Bold";
+    font-size: 16px;
+}
+
+.filterAvailable {
+    padding-left: 3px;
+    background: #f4f5f7;
+    box-shadow: 0 0 20px 0 #f4f5f7;
+}
+
+.filterAvailable .filterTitle {
+    font-family: "Lato-Bold";
+    font-size: 16px;
+    text-transform: initial;
+}
+
+.filterItem {
+    font-family: "Lato";
+    font-size: 14px;
+    color: #000000;
+    padding: 0.2rem 0;
+    text-transform: capitalize;
+}
+
+.filterItem--selected :global(.vtex-checkbox__label) {
+    color: #000000;
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.filterContent {
+    padding-left: 5px;
+}
+
+.filterContent :global(.vtex-checkbox__inner-container) {
+    border: 1px solid #0060aa;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector),
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+    background: #0060aa;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__left-value),
+.filterTemplateOverflow :global(.vtex-slider__right-value) {
+    font-family: "Lato-Bold";
+    color: #000000;
+    font-size: 14px;
+}
+
+.searchResultContainer {
+    padding-top: 0;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #0060aa;
+    background: #ffffff;
+}
+
+.buttonShowMore :global(.vtex-button):hover {
+    border-radius: 0;
+    border-color: #0060aa;
+    background: #0060aa;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    color: #0060aa;
+    font-family: "Lato-Bold";
+}
+
+.buttonShowMore :global(.vtex-button__label):hover {
+    color: #ffffff;
+}
+
+.showingProductsCount,
+.totalProductsMessage,
+.totalProducts--layout {
+    font-family: "Lato";
+    color: #888a8b;
+}
+
+.galleryTitle--layout {
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    font-family: "Lato-Bold";
+    color: #183152;
+    font-size: 3rem;
+    margin-left: 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: -1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .galleryTitle--layout {
+        margin: 0;
+        justify-content: center;
+        font-size: 1.7rem;
+        padding: 2rem 0;
+        margin-top: 1rem;
+        background-color: rgb(168 195 223 / 32%);
+    }
+    .galleryItem {
+        padding: 0 !important;
+    }
+    .filterPopupButton {
+        height: 2.7rem;
+    }
+    .orderByButton {
+        border: 1px solid #0060aa;
+        padding: 0.8rem 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .filterPopupTitle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 11%;
+    }
+    .orderByText {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}

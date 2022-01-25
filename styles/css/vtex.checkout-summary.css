@@ -1,0 +1,9 @@
+.summaryItemLabel,
+.price,
+.summarySmallDisclaimer {
+  font-family: "Lato-Bold";
+  color: #000000;
+}
+.summarySmallDisclaimer {
+  font-family: "Lato";
+}

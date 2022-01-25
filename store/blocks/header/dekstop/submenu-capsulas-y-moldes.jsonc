@@ -1,0 +1,78 @@
+{
+    "vtex.menu@2.x:menu#submenu-capsulas-y-moldes": {
+        "children": [
+            "menu-item#capsulas-blancas-para-pasteles",
+            "menu-item#moldes-para-queques",
+            "menu-item#moldes-para-pan-de-pascua",
+            "menu-item#tulipas-para-queques"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#capsulas-blancas-para-pasteles": {
+        "props": {
+            "id": "menu-item-capsulas-blancas-para-pasteles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/capsulas-y-moldes/capsulas-blancas-para-pasteles",
+                "noFollow": true,
+                "tagTitle": "Cápsulas blancas para pasteles",
+                "text": "Cápsulas blancas para pasteles"
+            }
+        }
+    },
+    "menu-item#moldes-para-queques": {
+        "props": {
+            "id": "menu-item-moldes-para-queques",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/capsulas-y-moldes/moldes-para-queques",
+                "noFollow": true,
+                "tagTitle": "moldes para queques",
+                "text": "Moldes para queques"
+            }
+        }
+    },
+    "menu-item#moldes-para-pan-de-pascua": {
+        "props": {
+            "id": "menu-item-moldes-para-pan-de-pascua",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/capsulas-y-moldes/moldes-para-pan-de-pascua",
+                "noFollow": true,
+                "tagTitle": "Moldes para pan de pascua",
+                "text": "Moldes para pan de pascua"
+            }
+        }
+    },
+    "menu-item#tulipas-para-queques": {
+        "props": {
+            "id": "menu-item-tulipas-para-queques",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/capsulas-y-moldes/tulipas-para-queques",
+                "noFollow": true,
+                "tagTitle": "Tulipas para queques",
+                "text": "Tulipas para queques"
+            }
+        }
+    }
+}

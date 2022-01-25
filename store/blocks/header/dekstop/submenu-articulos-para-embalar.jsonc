@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:menu#submenu-articulos-para-embalar": {
+        "children": [
+            "menu-item#film-strech-para-embalaje-transparente-y-negro",
+            "menu-item#film-de-carton-corrugado-para-embalaje",
+            "menu-item#film-de-plastico-burbuja-para-embalaje"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#film-strech-para-embalaje-transparente-y-negro": {
+        "props": {
+            "id": "menu-item-film-strech-para-embalaje-transparente-y-negro",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-para-embalar/film-strech-para-embalaje-transparente-y-negro",
+                "noFollow": true,
+                "tagTitle": "Film strech para embalaje transparente y negro",
+                "text": "Film strech para embalaje transparente y negro"
+            }
+        }
+    },
+    "menu-item#film-de-carton-corrugado-para-embalaje": {
+        "props": {
+            "id": "menu-item-film-de-carton-corrugado-para-embalaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-para-embalar/film-de-carton-corrugado-para-embalaje",
+                "noFollow": true,
+                "tagTitle": "Film de cartón corrugado para embalaje",
+                "text": "Film de cartón corrugado para embalaje"
+            }
+        }
+    },
+    "menu-item#film-de-plastico-burbuja-para-embalaje": {
+        "props": {
+            "id": "menu-item-film-de-plastico-burbuja-para-embalaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-para-embalar/film-de-plastico-burbuja-para-embalaje",
+                "noFollow": true,
+                "tagTitle": "Film de plástico burbuja para embalaje",
+                "text": "Film de plástico burbuja para embalaje"
+            }
+        }
+    }
+}

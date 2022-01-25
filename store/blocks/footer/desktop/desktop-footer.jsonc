@@ -1,0 +1,140 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#section-texto-seo",
+
+      "flex-layout.row#footer-menu",
+      "flex-layout.row#footer-info"
+    ]
+  },
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "flex-layout.col#servicio-al-cliente",
+      "flex-layout.col#corporativo",
+      "flex-layout.col#contacto",
+      "flex-layout.col#newsletter"
+    ],
+    "props": {
+      "blockClass": "footer-menu"
+    }
+  },
+  "flex-layout.row#footer-info": {
+    "children": [
+      "flex-layout.col#medios-de-pago",
+      "flex-layout.col#logo-corporativo",
+      "flex-layout.col#tienda"
+    ],
+    "props": {
+      "blockClass": "footer-info"
+    }
+  },
+  "flex-layout.col#servicio-al-cliente": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#servicio-al-cliente"
+    ]
+  },
+  "flex-layout.col#corporativo": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#corporativo"
+    ]
+  },
+  "flex-layout.col#contacto": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#contacto"
+    ]
+  },
+  "flex-layout.col#medios-de-pago": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info"
+    },
+    "children": [
+      "image#webpay",
+      "image#tarjetas",
+      "image#compra-segura"
+    ]
+  },
+  "image#webpay": {
+    "props": {
+      "src": "assets/webpay.svg",
+      "blockClass": "webpay",
+      "maxHeight": 20
+    }
+  },
+  "image#tarjetas": {
+    "props": {
+      "src": "assets/tarjetas-credito.svg",
+      "blockClass": "tarjetas",
+      "maxHeight": 18
+    }
+  },
+  "image#compra-segura": {
+    "props": {
+      "src": "assets/compra-segura.svg",
+      "blockClass": "compra-segura",
+      "maxHeight": 18
+    }
+  },
+  "flex-layout.col#logo-corporativo": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info"
+    },
+    "children": [
+      "image#sr",
+      "image#vtex"
+    ]
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/logo-vtex-blanco.png",
+      "blockClass": "vtex",
+      "maxHeight": 18,
+      "alt": "vtex",
+      "link": {
+        "url": "https://vtex.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#sr": {
+    "props": {
+      "src": "assets/logo-sr-blanco.png",
+      "blockClass": "sr",
+      "maxHeight": 18,
+      "alt": "SR Consultores",
+      "link": {
+        "url": "https://sr-consultores.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.col#tienda": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#copyright"
+    ]
+  },
+  "rich-text#copyright": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© Junaplas todos los derechos reservados",
+      "blockClass": "copyright"
+    }
+  }
+}

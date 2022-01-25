@@ -1,0 +1,164 @@
+.listItem :global(.vtex-button) {
+  color: #ffffff;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  background: #f2f2f2;
+}
+.listItem.listItemActive :global(.vtex-button) {
+  color: #ffffff;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-top: 1px solid #0060aa;
+  background: #ffffff;
+}
+.listItem :global(.vtex-button__label) {
+  color: #0060aa;
+  font-family: "PlayfairDisplay";
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.listContainer--pdp-desktop-info {
+  justify-content: start;
+  border-bottom: 1px solid #0060aa;
+}
+.listItem {
+  margin-bottom: 0px;
+  background: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+}
+.listItem.listItemActive {
+  margin-bottom: -1px;
+  background: #ffffff;
+  margin-left: 0;
+}
+.contentItem--tab-content-table {
+  background: #f2f2f2;
+  font-size: 14px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-family: "Lato";
+}
+.contentItem--tab-content-tecnica {
+  display: flex;
+  
+  margin: 1rem 0;
+}
+.container--sucursales {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.listContainer--tab-list-sucursales {
+  flex-direction: column;
+  width: 20%;
+  background: #f2f2f2;
+  box-shadow: inset 3px 0 0 #cacaca;
+  height: fit-content;
+  border: 1px solid #c7c7c7;
+}
+.listItem--tab-item-sucursales {
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.listItem--tab-item-sucursales:hover {
+  background: #f2f2f2;
+}
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales
+  :global(.vtex-button) {
+  color: #ffffff;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-top: 0px;
+  background: transparent;
+}
+.listItem--tab-item-sucursales:last-child {
+  border-bottom: 0px;
+}
+.listItem--tab-item-sucursales :global(.vtex-button) {
+  color: #ffffff;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-top: 0px;
+  background: transparent;
+  width: 100%;
+}
+
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales {
+  margin-bottom: 0px;
+  background: #f2f2f2;
+  margin-left: 0;
+  margin-top: 0;
+  box-shadow: inset 3px 0 0 #4ea2e2;
+}
+.listItem--tab-item-sucursales :global(.vtex-button__label) {
+  color: #000000;
+  font-family: "Lato-Bold";
+  font-size: 14px;
+  text-transform: capitalize;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.listItem--tab-item-sucursales::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23CACACA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  width: 5px;
+  height: 8px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 1rem;
+  z-index: 10;
+}
+
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%234EA2E2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  width: 5px;
+  height: 8px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 1rem;
+  z-index: 10;
+}
+@media screen and (max-width: 640px) {
+  .listItem,
+  .listItem :global(.vtex-button) {
+    width: 100%;
+  }
+  .listItem.listItemActive :global(.vtex-button) {
+    border: 0;
+    background: #f2f2f2;
+  }
+  .listItem :global(.vtex-button) {
+    border: 1px solid #0060aa;
+    background: #ffffff;
+  }
+  .listContainer--pdp-desktop-info {
+    border: 0;
+  }
+  .container--sucursales {
+    display: block;
+  
+  }
+  .listContainer--tab-list-sucursales {
+    
+    width: 100%;
+
+  }
+  .listItem--tab-item-sucursales :global(.vtex-button) {
+    border: 0px;
+   
+  }
+  .listItem--tab-item-sucursales::after, .listItem--tab-item-sucursales.listItemActive--tab-item-sucursales::after  {
+    display: none;
+  }
+}

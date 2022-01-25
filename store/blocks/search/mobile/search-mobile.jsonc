@@ -1,0 +1,86 @@
+{
+    "search-result-layout.mobile": {
+      "children": [
+        "flex-layout.row#searchbread",
+        "breadcrumb",
+        "flex-layout.row#searchtitle",
+        "flex-layout.row#btn-filter-mobile",
+        "flex-layout.row#searchinfomobile",
+        "flex-layout.row#fetchprevious",
+        "flex-layout.row#contentmobile",
+        "flex-layout.row#fetchmore",
+        "flex-layout.row#productCount"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }, 
+        "hiddenFacets": {
+          "priceRange": false,
+          "specificationFilters": {
+            "hiddenFilters": [
+                // { "name": "Lanzamiento" },
+                // { "name": "Tipo" }
+            ]
+          }
+        }
+      }
+   
+    },
+   
+    "flex-layout.row#contentmobile": {
+      "children": ["search-content"],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "blockClass": "contentmobile"
+      }
+    },
+
+    "flex-layout.row#btn-filter-mobile":{
+      "children":[
+        "flex-layout.col#filterMobile"
+      ], 
+      "props": {
+        "blockClass": "btn-filter-mobile"
+      }
+    },
+  
+    "flex-layout.row#searchinfomobile": {
+      "children": [
+        "flex-layout.col#orderByMobile",
+        "flex-layout.col#productCount"
+      ],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "colSizing": "auto",
+        "colJustify": "between", 
+        "blockClass": "wrapper-btns-plp-mobile"
+      }
+    },
+  
+    "flex-layout.col#orderByMobile": {
+      "children": ["order-by.v2"],
+      "props": {
+        "blockClass": "orderByMobileCol"
+      }
+    },
+  
+    "flex-layout.row#productCount": {
+      "children": [
+        "search-products-count-per-page"
+      ],
+      "props": {
+        "blockClass": "productCountRow",
+        "marginBottom":5
+      }
+    },
+  
+    "flex-layout.col#filterMobile": {
+      "children": ["filter-navigator.v3"],
+      "props": {
+        "blockClass": "filterMobileCol"
+      }
+    }
+  }

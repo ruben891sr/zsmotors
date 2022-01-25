@@ -1,0 +1,78 @@
+{
+    "vtex.menu@2.x:menu#submenu-envases-termicos": {
+        "children": [
+            "menu-item#bandejas-termicas",
+            "menu-item#porta-colacion",
+            "menu-item#porta-hotdog",
+            "menu-item#porta-sandwich"
+        ],
+        "props": {
+            "blockClass": "submenu-categories",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#bandejas-termicas": {
+        "props": {
+            "id": "menu-item-bandejas-termicas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termicos/bandejas-termicas",
+                "noFollow": true,
+                "tagTitle": "Bandejas térmicas",
+                "text": "Bandejas térmicas"
+            }
+        }
+    },
+    "menu-item#porta-colacion": {
+        "props": {
+            "id": "menu-item-porta-colacion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termicos/porta-colacion",
+                "noFollow": true,
+                "tagTitle": "Porta colación",
+                "text": "Porta colación"
+            }
+        }
+    },
+    "menu-item#porta-hotdog": {
+        "props": {
+            "id": "menu-item-porta-hotdog",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termicos/porta-hotdog",
+                "noFollow": true,
+                "tagTitle": "Porta hotdog",
+                "text": "Porta hotdog"
+            }
+        }
+    },
+    "menu-item#porta-sandwich": {
+        "props": {
+            "id": "menu-item-porta-sandwich",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termicos/porta-sandwich",
+                "noFollow": true,
+                "tagTitle": "Porta sandwich",
+                "text": "Porta sandwich"
+            }
+        }
+    }
+}

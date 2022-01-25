@@ -1,0 +1,622 @@
+{
+  "store.custom#sucursales": {
+    "blocks": [
+      "flex-layout.row#covid",
+      "flex-layout.row#sucursales"
+    ]
+  },
+  "flex-layout.row#sucursales": {
+    "children": [
+      "flex-layout.col#sucursales"
+    ],
+    "props": {
+      "blockClass": "junaplas-sucursales",
+      "width": "80%"
+    }
+  },
+  "flex-layout.row#covid": {
+    "children": [
+      "flex-layout.col#covid"
+    ],
+    "props": {
+      "blockClass": "junaplas-covid",
+      "fullWidth": "true",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#sucursales": {
+    "children": [
+      "rich-text#sucursales-title",
+      "tab-layout#sucursales"
+    ],
+    "props": {
+      "blockClass": "junaplas-sucursales",
+      "fullWidth": true
+    }
+  },
+  "tab-layout#sucursales": {
+    "children": [
+      "tab-list#sucursales",
+      "tab-content#sucursales"
+    ],
+    "props": {
+      "blockClass": "sucursales",
+      "defaultActiveTabId": "one"
+    }
+  },
+  "tab-list#sucursales": {
+    "children": [
+      //"tab-list.item#casa-matriz",
+      "tab-list.item#lo-ovalle",
+      "tab-list.item#san-pablo",
+      "tab-list.item#gran-avenida",
+      "tab-list.item#san-diego",
+      "tab-list.item#santa-rosa",
+      "tab-list.item#santa-rosa-cotillon"
+    ],
+    "props": {
+      "blockClass": "tab-list-sucursales"
+    }
+  },
+  "tab-list.item#casa-matriz": {
+    "props": {
+      "tabId": "eight",
+      "label": "Sucursal Casa Matriz",
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#lo-ovalle": {
+    "props": {
+      "tabId": "one",
+      "label": "Sucursal Lo Ovalle",
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#san-pablo": {
+    "props": {
+      "tabId": "two",
+      "label": "Sucursal San Pablo",
+      "defaultActiveTab": true,
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#gran-avenida": {
+    "props": {
+      "tabId": "three",
+      "label": "Sucursal Gran Avenida",
+      "defaultActiveTab": true,
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#san-diego": {
+    "props": {
+      "tabId": "four",
+      "label": "Sucursal San Diego",
+      "defaultActiveTab": true,
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#santa-rosa": {
+    "props": {
+      "tabId": "five",
+      "label": "Sucursal Santa Rosa",
+      "defaultActiveTab": true,
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-list.item#santa-rosa-cotillon": {
+    "props": {
+      "tabId": "six",
+      "label": "Sucursal Santa Rosa Cotillón",
+      "defaultActiveTab": true,
+      "blockClass": "tab-item-sucursales"
+    }
+  },
+  "tab-content#sucursales": {
+    "children": [
+      //"tab-content.item#casa-matriz",
+      "tab-content.item#lo-ovalle",
+      "tab-content.item#san-pablo",
+      "tab-content.item#gran-avenida",
+      "tab-content.item#san-diego",
+      "tab-content.item#santa-rosa",
+      "tab-content.item#santa-rosa-cotillon"
+    ]
+  },
+  "tab-content.item#casa-matriz": {
+    "children": [
+      "flex-layout.row#casa-matriz"
+    ],
+    "props": {
+      "tabId": "eight",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#casa-matriz": {
+    "children": [
+      "flex-layout.col#info-casa-matriz",
+      "flex-layout.col#casa-matriz-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-casa-matriz": {
+    "children": [
+      "info-card#sucursal-casa-matriz"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "40%"
+    }
+  },
+  "flex-layout.col#casa-matriz-mapa": {
+    "children": [
+      "iframe#ovalle"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "tab-content.item#lo-ovalle": {
+    "children": [
+      "flex-layout.row#ovalle"
+    ],
+    "props": {
+      "tabId": "one",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#ovalle": {
+    "children": [
+      "flex-layout.col#info-ovalle",
+      "flex-layout.col#ovalle-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-ovalle": {
+    "children": [
+      "info-card#sucursal-ovalle"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#ovalle-mapa": {
+    "children": [
+      "iframe#ovalle"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "70%"
+    }
+  },
+  "tab-content.item#san-pablo": {
+    "children": [
+      "flex-layout.row#san-pablo"
+    ],
+    "props": {
+      "tabId": "two",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#san-pablo": {
+    "children": [
+      "flex-layout.col#info-san-pablo",
+      "flex-layout.col#san-pablo-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-san-pablo": {
+    "children": [
+      "info-card#sucursal-san-pablo"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#san-pablo-mapa": {
+    "children": [
+      "iframe#san-pablo"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "70%"
+    }
+  },
+  "tab-content.item#gran-avenida": {
+    "children": [
+      "flex-layout.row#gran-avenida"
+    ],
+    "props": {
+      "tabId": "three",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#gran-avenida": {
+    "children": [
+      "flex-layout.col#info-gran-avenida",
+      "flex-layout.col#gran-avenida-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-gran-avenida": {
+    "children": [
+      "info-card#sucursal-gran-avenida"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#gran-avenida-mapa": {
+    "children": [
+      "iframe#gran-avenida"
+    ],
+    "props": {
+      "blockClass": "mapa-sucursales",
+      "width": "70%"
+    }
+  },
+  "tab-content.item#san-diego": {
+    "children": [
+      "flex-layout.row#san-diego"
+    ],
+    "props": {
+      "tabId": "four",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#san-diego": {
+    "children": [
+      "flex-layout.col#info-san-diego",
+      "flex-layout.col#san-diego-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-san-diego": {
+    "children": [
+      "info-card#sucursal-san-diego"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#san-diego-mapa": {
+    "children": [
+      "iframe#san-diego"
+    ],
+    "props": {
+      "blockClass": "mapa-sucursales",
+      "width": "70%"
+    }
+  },
+  "tab-content.item#santa-rosa": {
+    "children": [
+      "flex-layout.row#santa-rosa"
+    ],
+    "props": {
+      "tabId": "five",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#santa-rosa": {
+    "children": [
+      "flex-layout.col#info-santa-rosa",
+      "flex-layout.col#santa-rosa-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-santa-rosa": {
+    "children": [
+      "info-card#sucursal-santa-rosa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#santa-rosa-mapa": {
+    "children": [
+      "iframe#santa-rosa"
+    ],
+    "props": {
+      "blockClass": "mapa-sucursales",
+      "width": "70%"
+    }
+  },
+  "tab-content.item#santa-rosa-cotillon": {
+    "children": [
+      "flex-layout.row#santa-rosa-cotillon"
+    ],
+    "props": {
+      "tabId": "six",
+      "blockClass": "tab-content-sucursales"
+    }
+  },
+  "flex-layout.row#santa-rosa-cotillon": {
+    "children": [
+      "flex-layout.col#info-santa-rosa-cotillon",
+      "flex-layout.col#santa-rosa-cotillon-mapa"
+    ],
+    "props": {
+      "blockClass": "info-sucursales"
+    }
+  },
+  "flex-layout.col#info-santa-rosa-cotillon": {
+    "children": [
+      "info-card#sucursal-santa-rosa-cotillon"
+    ],
+    "props": {
+      "blockClass": "info-sucursales",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#santa-rosa-cotillon-mapa": {
+    "children": [
+      "iframe#santa-rosa-cotillon"
+    ],
+    "props": {
+      "blockClass": "mapa-sucursales",
+      "width": "70%"
+    }
+  },
+  "rich-text#sucursales-title": {
+    "props": {
+      "text": "Nuestras Sucursales",
+      "textAlignment": "CENTER",
+      "textPosition": "left",
+      "blockClass": "title-sucursal"
+    }
+  },
+  "info-card#sucursal-ovalle": {
+    "props": {
+      "id": "info-card-sucursal-ovalle",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida Lo Ovalle 611 – San Miguel – Santiago. \n **Fono:** +56 223306512  + 56 223306513 \n **Horario de Atención:** \n Lunes a Viernes de 08:30 – 18:30 – Sábado de 08:30 – 14:00",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/cotillon-Lo-Ovalle-300x227.jpg"
+    }
+  },
+  "iframe#ovalle": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.37865763129!2d-70.6448606842006!3d-33.51753940834582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da92fee8a707%3A0x43e30c4668d80ee1!2sAv.%20Lo%20Ovalle%20611%2C%20San%20Miguel%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627082206412!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-san-pablo": {
+    "props": {
+      "id": "info-card-sucursal-san-pablo",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida San Pablo 2574 – Santiago – Santiago. \n **Fono:** +56223306519  +56 223306520 \n **Horario de Atención:** \n Lunes a Viernes de 08:30 – 18:30 – Sábado de 08:30 – 14:00",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/sp20-1-300x227.jpg"
+    }
+  },
+  "iframe#san-pablo": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.5481257741626!2d-70.67507778420249!3d-33.435023404107994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c44c5911cd79%3A0x23cad34501d71f55!2sSan%20Pablo%202574%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627084306464!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-gran-avenida": {
+    "props": {
+      "id": "info-card-sucursal-gran-avenida",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida José Miguel Carrera 5838 - San Miguel – Santiago \n **Fono:** +56 223306521  +56 223306522 \n  **Horario de Atención:** \n Lunes a Viernes de 08:30 a 18:30",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/ga30-300x227.jpg"
+    }
+  },
+  "iframe#gran-avenida": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.7445802202596!2d-70.65819808420072!3d-33.50802190785643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dac33d23fd01%3A0xf5bfe699821dfb4e!2sGran%20Avenida%20Jose%20Miguel%20Carrera%205838%2C%20San%20Miguel%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627326391673!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-san-diego": {
+    "props": {
+      "id": "info-card-sucursal-san-diego",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida San Diego 2212 Santiago – Santiago. \n **Fono:** +56223306524  +56 223306525 \n  **Cerrada hasta nuevo aviso.**",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/IMG_0716-1024x768.jpg"
+    }
+  },
+  "iframe#san-diego": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.025994008368!2d-70.65023538420145!3d-33.47467400614331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c538ff753c53%3A0x527a547468b2f216!2sSan%20Diego%202212%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627327545018!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-santa-rosa": {
+    "props": {
+      "id": "info-card-sucursal-santa-rosa",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida Santa Rosa 7890 La Granja – Santiago. \n **Fono:** +56 223306517  +56 223306518 \n  **Horario de Atención:** \n  Lunes a Viernes de 08:00 a 18:30 - Sábado de 08:30 a 14:00",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "http://w3.junaplas.com/wp-content/uploads/2018/05/sr10-300x227.jpg"
+    }
+  },
+  "iframe#santa-rosa": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.025994008368!2d-70.65023538420145!3d-33.47467400614331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c538ff753c53%3A0x527a547468b2f216!2sSan%20Diego%202212%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627327545018!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-santa-rosa-cotillon": {
+    "props": {
+      "id": "info-card-sucursal-santa-rosa-cotillon",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "**Dirección:** Avenida Santa Rosa 7897 San Ramón – Santiago. \n **Fono:** +56 223306526  +56 223306527 \n  **Cerrada hasta nuevo aviso.**",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "https://w3.junaplas.com/wp-content/uploads/2018/05/IMG_1768-1024x768.jpg"
+    }
+  },
+  "iframe#santa-rosa-cotillon": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.8777437710287!2d-70.63753238420016!3d-33.5305641090156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da62970667f5%3A0x1db51fa07637db4d!2sSta.%20Rosa%207897%2C%20La%20Granja%2C%20San%20Ram%C3%B3n%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1627328368843!5m2!1ses!2scl"
+    }
+  },
+  "info-card#sucursal-casa-matriz": {
+    "props": {
+      "id": "info-card-sucursal-santa-rosa-cotillon",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "callToActionUrl": "/aluminio",
+      "headline": "Avenida Santa Rosa 7897 San Ramón – Santiago \n Fono: +56 223306526  +56 223306527 \n  Cerrada hasta nuevo aviso.",
+      "callToActionMode": "none",
+      "blockClass": "sucursal-info",
+      "textMode": "rich-text",
+      "imageUrl": "http://w3.junaplas.com/wp-content/uploads/2018/05/FACHADA-DE-JUNAPLAS-300x227.jpg"
+    }
+  },
+  "iframe#santa-casa-matriz": {
+    "props": {
+      "width": "100%",
+      "height": "500",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13305.518120328583!2d-70.6514267565454!3d-33.51751671908621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da92fee8a709%3A0xed35a9b0728d16b7!2sJunaplas!5e0!3m2!1ses!2scl!4v1627329240593!5m2!1ses!2scl"
+    }
+  },
+  "flex-layout.col#covid": {
+    "children": [
+      "modal-trigger#covid"
+    ],
+    "props": {
+      "blockClass": "info-covid",
+      "width": "100%",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#covid": {
+    "props": {
+      "text": "MIENTRAS DURE LA CONTINGENCIA SANITARIA POR EL COVID-19, LE AGRADECEREMOS VERIFICAR **AQUÍ** LA DISPONIBILIDAD Y HORARIO DISPONIBLE PARA NUESTRAS TIENDAS.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "info-covid"
+    }
+  },
+  "modal-trigger#covid": {
+    "children": [
+      "rich-text#covid",
+      "modal-layout#covid"
+    ],
+    "props": {
+      "blockClass": "info-covid"
+    }
+  },
+  "modal-layout#covid": {
+    "children": [
+      "modal-header#covid",
+      "modal-content#covid"
+    ],
+    "props": {
+      "blockClass": "info-covid"
+    }
+  },
+  "modal-header#covid": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
+  "modal-content#covid": {
+    "children": [
+      "flex-layout.row#content-covid"
+    ],
+    "props": {
+      "scroll": "body",
+      "blockClass": "content-covid",
+      "disableEscapeKeyDown": true,
+      "fullScreen": true,
+      "backdrop": "none"
+    }
+  },
+  "flex-layout.row#content-covid": {
+    "children": [
+      "flex-layout.col#content-covid"
+    ],
+    "props": {
+      "blockClass": "info-covid",
+      "width": "100%",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#content-covid": {
+    "children": [
+      "rich-text#content-horarios",
+      "image#tabla-tiendas",
+      "rich-text#content-contacto"
+    ],
+    "props": {
+      "blockClass": "content-covid",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#content-horarios": {
+    "props": {
+      "text": "**Estimado cliente** \n Debido a la contingencia sanitaria, producto de la pandemia de Covid 19, estamos haciendo nuestros mayores esfuerzos para mantener en nuestras tiendas un entorno seguro para nuestros clientes y colaboradores. \n **Tiendas Abiertas:** \n LO OVALLE 611 – SAN PABLO 2574 – SANTA ROSA 7890 – SAN DIEGO 2212.",
+      "blockClass": "texto-modal"
+    }
+  },
+  "image#tabla-tiendas": {
+    "props": {
+      "src": "assets/table-tiendas.png",
+      "maxWidth": 700,
+      "alt": "tabla tiendas",
+      "blockClass": "image-tabla"
+    }
+  },
+  "rich-text#content-contacto": {
+    "props": {
+      "text": "Debido a las cuarentenas ordenadas por la autoridad, algunas de nuestras tiendas **PERMANECERÁN CERRADAS**, sin embargo seguimos atendiendo a través de nuestros teléfonos ([+56 2 2330 6500](tel:+56223306500) - [+56 2 2330 6501](tel:+56223306501) - [+56 2 2330 6502](tel:+56223306502) - [+56 2 2330 6503](tel:+56223306503) - [+56 2 2330 6504](tel:+56223306504) - [+56 2 2330 6505](tel:+56223306505)) o a nuestro correo [ventas@junaplas.cl](mailto:ventas@junaplas.cl), con despacho a domicilio o en el formulario continuación.",
+      "blockClass": "contacto-modal"
+    }
+  }
+}

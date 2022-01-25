@@ -1,0 +1,180 @@
+{
+    "vtex.menu@2.x:menu#submenu-bandejas-y-blondas": {
+        "children": [
+            "menu-item#bandejas-redondas-de-cartulina-blanco",
+            //"menu-item#bandejas-redondas-de-papel-blanco",
+            "menu-item#bandejas-rectangular-de-cartulina-blanco",
+            //"menu-item#bandejas-rectangulares-de-papel-blanco",
+            "menu-item#bandejas-tipo-canasto",
+            "menu-item#bandejas-plasticas-ovaladas-blanco-y-colores",
+            "menu-item#bases-de-torta-redonda",
+            "menu-item#blondas-redondas-de-papel-blanco",
+            "menu-item#blondas-rectangular-de-papel-blanco",
+            "menu-item#huincha-de-carton"
+         
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#bandejas-redondas-de-cartulina-blanco": {
+        "props": {
+            "id": "menu-item-bandejas-redondas-de-cartulina-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-redondas-de-cartulina-blanco",
+                "noFollow": true,
+                "tagTitle": "Bandejas redondas de cartulina blanco",
+                "text": "Bandejas redondas de cartulina blanco"
+            }
+        }
+    },    "menu-item#bandejas-redondas-de-papel-blanco": {
+        "props": {
+            "id": "menu-item-bandejas-redondas-de-papel-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-redondas-de-papel-blanco",
+                "noFollow": true,
+                "tagTitle": "Bandejas redondas de papel blanco",
+                "text": "Bandejas redondas de papel blanco"
+            }
+        }
+    },
+    "menu-item#bandejas-rectangulares-de-papel-blanco": {
+        "props": {
+            "id": "menu-item-bandejas-rectangulares-de-papel-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-rectangulares-de-papel-blanco",
+                "noFollow": true,
+                "tagTitle": "Bandejas rectangulares de papel blanco",
+                "text": "Bandejas rectangulares de papel blanco"
+            }
+        }
+    },
+    "menu-item#bandejas-rectangular-de-cartulina-blanco": {
+        "props": {
+            "id": "menu-item-bandejas-rectangular-de-cartulina-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-rectangulares-de-cartulina-blanco",
+                "noFollow": true,
+                "tagTitle": "Bandejas rectangulares de cartulina blanco",
+                "text": "Bandejas rectangulares de cartulina blanco"
+            }
+        }
+    },
+    "menu-item#bandejas-tipo-canasto": {
+        "props": {
+            "id": "menu-item-bandejas-tipo-canasto",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-tipo-canasto",
+                "noFollow": true,
+                "tagTitle": "Bandejas tipo canasto",
+                "text": "Bandejas tipo canasto"
+            }
+        }
+    },
+    "menu-item#bandejas-plasticas-ovaladas-blanco-y-colores": {
+        "props": {
+            "id": "menu-item-bandejas-plasticas-ovaladas-blanco-y-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bandejas-plasticas-ovaladas-blanco-y-colores",
+                "noFollow": true,
+                "tagTitle": "Bandejas plásticas ovaladas blanco y colores",
+                "text": "Bandejas plásticas ovaladas blanco y colores"
+            }
+        }
+    },
+    "menu-item#bases-de-torta-redonda": {
+        "props": {
+            "id": "menu-item-bases-de-torta-redonda",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/bases-de-tortas-redondas",
+                "noFollow": true,
+                "tagTitle": "Bases de tortas redondas",
+                "text": "Bases de tortas redondas"
+            }
+        }
+    },
+    "menu-item#blondas-rectangular-de-papel-blanco": {
+        "props": {
+            "id": "menu-item-blondas-rectangular-de-papel-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/blondas-rectangular-de-papel-blanco",
+                "noFollow": true,
+                "tagTitle": "Blondas rectangulares de papel blanco",
+                "text": "Blondas rectangulares de papel blanco"
+            }
+        }
+    },
+    "menu-item#blondas-redondas-de-papel-blanco": {
+        "props": {
+            "id": "menu-item-blondas-redondas-de-papel-blanco",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/blondas-redondas-de-papel-blanco",
+                "noFollow": true,
+                "tagTitle": "Blondas redondas de papel blanco",
+                "text": "Blondas redondas de papel blanco"
+            }
+        }
+    },
+    "menu-item#huincha-de-carton": {
+        "props": {
+            "id": "menu-item-huincha-de-carton",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas/huincha-de-carton",
+                "noFollow": true,
+                "tagTitle": "Huincha de cartón",
+                "text": "Huincha de cartón"
+            }
+        }
+    }
+}

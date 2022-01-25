@@ -1,0 +1,101 @@
+{
+    "vtex.menu@2.x:menu#menu-desktop": {
+      "children": [
+        "menu-item#catalogo",
+        "menu-item#sobre-nosotros",
+        "menu-item#sucursales",
+        "menu-item#Contacto",
+        "menu-item#Cotizador"
+      ],
+      "props":{
+         "blockClass": "menu-desktop"
+      }
+    },
+    "menu-item#catalogo": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "menu-desktop",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Catalogo",
+          "text": "Catálogo"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#catalogo"] 
+    },
+    "menu-item#sobre-nosotros": {
+        "props": {
+          "id": "menu-item-sobre-nosotros",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/sobre-nosotros",
+            "noFollow": true,
+            "tagTitle": "sobre-nosotros",
+            "text": "Sobre Nosotros"
+          }
+        }
+      },   
+      "menu-item#sucursales": {
+        "props": {
+          "id": "menu-item-sucursales",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/sucursales",
+            "noFollow": true,
+            "tagTitle": "Sucursales",
+            "text": "Sucursales"
+          }
+        }
+      },
+      "menu-item#Contacto": {
+        "props": {
+          "id": "menu-item-contacto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/contacto",
+            "noFollow": true,
+            "tagTitle": "Contacto",
+            "text": "Contacto"
+          }
+        }
+      },
+      "vtex.menu@2.x:submenu#catalogo":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-catalogo"
+          ]
+      },
+      "menu-item#Cotizador": {
+        "props": {
+          "id": "menu-item-contacto",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "menu-desktop",
+          "itemProps": {
+            "type": "internal",
+            "href": "/orderquote",
+            "noFollow": true,
+            "tagTitle": "Cotizador",
+            "text": "Cotizador"
+          }
+        }
+      }
+   
+  }

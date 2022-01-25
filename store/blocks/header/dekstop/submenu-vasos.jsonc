@@ -1,0 +1,78 @@
+{
+    "vtex.menu@2.x:menu#submenu-vasos": {
+        "children": [
+            "menu-item#vasos-plasticos-transparentes-blanco-y-colores",
+            "menu-item#vasos-termicos-blancos",
+            "menu-item#vasos-de-polipapel",
+            "menu-item#vasos-impresos"
+        ],
+        "props": {
+            "blockClass": "submenu-categories",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#vasos-plasticos-transparentes-blanco-y-colores": {
+        "props": {
+            "id": "menu-item-vasos-plasticos-transparentes-blanco-y-colores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/vasos/vasos-plasticos-transparentes-blanco-y-colores",
+                "noFollow": true,
+                "tagTitle": "Vasos plasticos transparentes, blanco y colores",
+                "text": "Vasos plasticos transparentes, blanco y colores"
+            }
+        }
+    },
+    "menu-item#vasos-termicos-blancos": {
+        "props": {
+            "id": "menu-item-submenu-vasos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/vasos/vasos-termicos-blancos",
+                "noFollow": true,
+                "tagTitle": "Vasos térmicos blancos",
+                "text": "Vasos térmicos blancos"
+            }
+        }
+    },
+    "menu-item#vasos-de-polipapel": {
+        "props": {
+            "id": "menu-item-vasos-de-polipapel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/vasos/vasos-de-polipapel",
+                "noFollow": true,
+                "tagTitle": "Vasos de polipapel",
+                "text": "Vasos de polipapel"
+            }
+        }
+    },
+    "menu-item#vasos-impresos": {
+        "props": {
+            "id": "menu-item-vasos-impresos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/vasos/vasos-impresos",
+                "noFollow": true,
+                "tagTitle": "Vasos impresos",
+                "text": "Vasos impresos"
+            }
+        }
+    }
+}

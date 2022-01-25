@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:menu#submenu-cajas-de-carton": {
+        "children": [
+            "menu-item#cajas-de-carton-forrado",
+            "menu-item#cajas-de-carton-kraft",
+            "menu-item#cajas-para-embalaje"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#cajas-de-carton-forrado": {
+        "props": {
+            "id": "menu-item-cajas-de-carton-forrado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cajas-de-carton/cajas-de-carton-forrado",
+                "noFollow": true,
+                "tagTitle": "Cajas de cartón forrado",
+                "text": "Cajas de cartón forrado"
+            }
+        }
+    },
+    "menu-item#cajas-de-carton-kraft": {
+        "props": {
+            "id": "menu-item-cajas-de-carton-kraft",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cajas-de-carton/cajas-de-carton-kraft",
+                "noFollow": true,
+                "tagTitle": "Cajas de cartón kraft",
+                "text": "Cajas de cartón kraft"
+            }
+        }
+    },
+    "menu-item#cajas-para-embalaje": {
+        "props": {
+            "id": "menu-item-cajas-para-embalaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cajas-de-carton/cajas-para-embalaje",
+                "noFollow": true,
+                "tagTitle": "Cajas para embalaje",
+                "text": "Cajas para embalaje"
+            }
+        }
+    }
+}

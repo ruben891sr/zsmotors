@@ -1,0 +1,64 @@
+{
+    "vtex.menu@2.x:menu#submenu-hilos-y-elasticos": {
+        "children": [
+            "menu-item#elasticos",
+            "menu-item#hilos-de-algodon",
+            "menu-item#hilos-de-plasticos"
+           
+            
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#hilos-de-plasticos": {
+        "props": {
+            "id": "menu-item-hilos-de-plasticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hilos-y-elasticos/hilos-de-plasticos",
+                "noFollow": true,
+                "tagTitle": "Hilos de plásticos",
+                "text": "Hilos de plásticos"
+            }
+        }
+    },
+    "menu-item#hilos-de-algodon": {
+        "props": {
+            "id": "menu-item-hilos-de-algodon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hilos-y-elasticos/hilos-de-algodon",
+                "noFollow": true,
+                "tagTitle": "Hilos de algodón",
+                "text": "Hilos de algodón"
+            }
+        }
+    },
+    "menu-item#elasticos": {
+        "props": {
+            "id": "menu-item-elasticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hilos-y-elasticos/elasticos",
+                "noFollow": true,
+                "tagTitle": "Elásticos",
+                "text": "Elásticos"
+            }
+        }
+    }
+
+}

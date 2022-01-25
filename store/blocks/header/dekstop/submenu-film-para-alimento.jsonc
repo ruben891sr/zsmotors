@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:menu#submenu-film-para-alimento": {
+        "children": [
+            "menu-item#film-para-alimentos-de-polietileno",
+            "menu-item#film-para-alimentos-de-pvc",
+            "menu-item#film-para-alimentos-aluminio"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#film-para-alimentos-de-polietileno": {
+        "props": {
+            "id": "menu-item-film-para-alimentos-de-polietileno",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/film-para-alimento/film-para-alimentos-de-polietileno",
+                "noFollow": true,
+                "tagTitle": "Film para alimentos de Polietileno",
+                "text": "Film para alimentos de Polietileno"
+            }
+        }
+    },
+    "menu-item#film-para-alimentos-de-pvc": {
+        "props": {
+            "id": "menu-item-film-para-alimentos-de-pvc",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/film-para-alimento/film-para-alimentos-de-pvc",
+                "noFollow": true,
+                "tagTitle": "Film para alimentos de PVC",
+                "text": "Film para alimentos de PVC"
+            }
+        }
+    },
+    "menu-item#film-para-alimentos-aluminio": {
+        "props": {
+            "id": "menu-item-film-para-alimentos-aluminio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/film-para-alimento/film-para-alimentos-de-aluminio",
+                "noFollow": true,
+                "tagTitle": "Film para alimentos de Aluminio",
+                "text": "Film para alimentos de Aluminio"
+            }
+        }
+    }
+}

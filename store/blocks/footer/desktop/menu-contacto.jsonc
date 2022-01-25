@@ -1,0 +1,89 @@
+{
+    "vtex.menu@2.x:menu#contacto": {
+      "children": [
+        "menu-item#contacto",
+        "menu-item#facebook",
+        "menu-item#instagram",
+        "rich-text#telefono-i",
+        "rich-text#telefono-ii",
+        "rich-text#direccion"
+      ],
+      "props":{
+         "blockClass": "menu-footer",
+         "orientation": "vertical"
+      }
+    },
+    "menu-item#contacto": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Contacto",
+          "text": "Contacto"
+        }
+      }
+    },
+    "menu-item#facebook": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/facebook",
+          "noFollow": true,
+          "tagTitle": "Facebook",
+          "text": "Facebook"
+        }
+      }
+    },
+    "menu-item#instagram": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/instagram",
+          "noFollow": true,
+          "tagTitle": "Instagram",
+          "text": "Instagram"
+        }
+      }
+    },
+    "rich-text#telefono-i": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "text": "Ventas - Despacho: \n [+56 9 8709 2124](tel:+56987092124)",
+          "blockClass": "footer-subtitle"
+        }
+      },
+    "rich-text#telefono-ii": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "text": "Gerencia: \n [+56 9 7858 7630](tel:+56978587630)",
+          "blockClass": "footer-subtitle"
+        }
+      },
+      "rich-text#direccion": {
+          "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Avenida Lo Ovalle 611, San Miguel, Santiago, Región Metropolitana, Chile",
+            "blockClass": "footer-subtitle"
+          }
+        }
+
+}

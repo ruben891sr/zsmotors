@@ -1,0 +1,440 @@
+.wrapper--section-texto-seo {
+  margin: 2.5rem 0 0;
+ 
+}
+
+.headingLevel1--section-texto-seo {
+  color: #3d3d3d;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Lato-Thin";
+}
+
+.headingLevel1--section-texto-seo::after {
+  content: "";
+  background: #4ea2e2;
+  font-size: 1.5rem;
+  height: 2px;
+  display: inline-block;
+  width: 30%;
+  margin: 0 0 0 2rem;
+}
+
+.headingLevel1--section-texto-seo::before {
+  content: "";
+  background: #4ea2e2;
+  font-size: 1.5rem;
+  height: 2px;
+  display: inline-block;
+  width: 30%;
+  margin: 0 2rem 0 0;
+}
+
+.headingLevel3--title-carousel-especial {
+  color: #3d3d3d;
+  font-size: 30px;
+  display: flex;
+  position: relative;
+  margin-right: 2rem;
+  font-family: "Lato";
+  font-weight: 500;
+}
+
+.headingLevel3--title-carousel-especial::after {
+  content: "";
+  width: 150px;
+  height: 6px;
+  background-color: #0060aa;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headingLevel3--title-carousel-mas-vendidos {
+  color: #3d3d3d;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  font-family: "Lato";
+  margin: 1rem 0 2rem;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+}
+
+.headingLevel3--title-carousel-mas-vendidos::after {
+  content: "";
+  width: 150px;
+  height: 6px;
+  background-color: #0060aa;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph--section-texto-seo {
+  margin: 2rem auto 0;
+  font-size: 16px;
+  max-width: 1350px;
+  font-family: "Lato-Thin";
+  font-weight: 800;
+}
+.paragraph--section-texto-seo-dpto {
+    margin-bottom: 3rem;
+    font-size: 15px;
+    max-width: 1024px;
+    font-family: "Lato-Thin";
+  }
+.strong--section-texto-seo-dpto {
+  line-height: 1.7;
+
+}
+.link--section-texto-seo-dpto, .link--section-texto-seo {
+  text-decoration: none;
+  color: inherit;
+}
+.link--section-texto-seo-dpto {
+  margin: 0 0.3rem;
+}
+.container--nosotros-text {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.paragraph--nosotros-text {
+  font-size: 16px;
+  font-family: "Lato";
+  line-height: 2;
+}
+
+.wrapper--title-carousel-mas-vendidos,
+.wrapper--info-covid {
+  width: 100%;
+}
+
+.paragraph--contacto {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  margin-left: 38px;
+  font-size: 12px;
+}
+
+.paragraph--telefono {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.paragraph--horario {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+.paragraph--tienda {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  font-size: 12px;
+  margin-right: 38px;
+}
+
+.link--contacto,
+.link--telefono,
+.link--tienda {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.paragraph--footer-subtitle {
+  margin: 0;
+}
+
+.paragraph--footer-subtitle {
+  color: #000000;
+  font-family: "Lato";
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.link--footer-subtitle {
+  color: #000000;
+  font-family: "Lato";
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.paragraph--footer-title {
+  font-family: "Lato-Bold";
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: #000000;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+
+.paragraph--copyright {
+  font-family: "Lato-Bold";
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.container--footer-subtitle {
+  justify-content: center;
+  margin: 0 2rem 0.5rem;
+}
+
+.paragraph--submenu-catalogo {
+  font-size: 12px;
+  font-family: "Lato-Bold";
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.container--telefono-mobile,
+.container--correo-mobile {
+  background: #e7e7e7;
+}
+
+.container--telefono-mobile {
+  border-bottom: 1px solid #cacaca;
+}
+
+.paragraph--telefono-mobile,
+.paragraph--correo-mobile {
+  margin: 0.5rem 1rem;
+  position: relative;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.link--telefono-mobile,
+.link--correo-mobile {
+  font-family: "Lato-Bold";
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  margin-left: 1.2rem;
+}
+
+.paragraph--telefono-mobile::before {
+  content: "";
+  background-image: url("assets/home/phone.svg");
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.paragraph--correo-mobile::before {
+  content: "";
+  background-image: url("assets/home/mail.svg");
+  width: 14px;
+  height: 10px;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.paragraph--formtitle,
+.paragraph--nosotros-title,
+.paragraph--title-sucursal {
+  color: #0060aa;
+  font-family: Playfair Display;
+  font-size: 30px;
+  border-bottom: 1px solid;
+}
+
+.paragraph--title-sucursal {
+  position: relative;
+  width: fit-content;
+}
+
+.paragraph--info-covid {
+  color: #ffffff;
+  font-family: "Lato-Bold";
+  font-size: 14px;
+}
+
+.strong--info-covid {
+  text-decoration: underline;
+}
+
+.container--texto-modal {
+  font-family: "Lato";
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.container--contacto-modal {
+  font-family: "Lato";
+  margin-top: 1.5rem;
+}
+
+.paragraph--texto-modal {
+  margin-top: 0;
+}
+
+.paragraph--contacto-modal {
+  margin-top: 1rem;
+}
+
+.strong--texto-modal {
+  line-height: 3;
+}
+
+.paragraph--acordeon {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #183152;
+  margin-bottom: 0.75rem;
+  font-family: "Lato-Bold";
+  font-size: 0.9rem;
+  position: relative;
+  display: flex;
+}
+
+.paragraph--acordeon::before {
+  content: "";
+  background-image: url("assets/document.png");
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  margin-right: 0.2rem;
+}
+
+.paragraph--disclaimer-header {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 14px;
+    margin-left: -13px;
+}
+
+.strong--disclaimer-header {
+    position: relative;
+    visibility: hidden;
+}
+
+.strong--disclaimer-header::before {
+    content: '';
+    background-image: url(assets/webpay-disclaimer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 5px;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1024px) {
+  
+    .headingLevel3--title-carousel-mas-vendidos {
+        font-size: 23px;
+    }
+    .headingLevel3--title-carousel-especial {
+        font-size: 23px;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 15px;
+    }
+    .headingLevel1--section-texto-seo::after {
+        margin: 0 0 0 0.5rem;
+    }
+    .headingLevel1--section-texto-seo::before {
+        margin: 0 0.5rem 0 0;
+    }
+    .container--title-carousel-especial {
+        justify-content: center;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 23px;
+        font-weight: 500;
+        font-family: 'Lato';
+    }
+    .paragraph--footer-title {
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+    .paragraph--section-texto-seo {
+        font-size: 14px;
+        line-height: 2;
+    }
+    .paragraph--nosotros-text {
+        font-size: 14px;
+        line-height: 2;
+        text-align: center;
+    }
+    .paragraph--info-covid {
+        font-size: 11px;
+    }
+    .paragraph--formtitle,
+    .paragraph--nosotros-title,
+    .paragraph--title-sucursal {
+        font-size: 25px;
+        border-bottom: 1px solid;
+        width: 100%;
+        display: inline-block;
+        margin: 2rem auto;
+        line-height: 1.3;
+        padding-bottom: 1rem;
+    }
+
+  .headingLevel3--title-carousel-mas-vendidos {
+    font-size: 23px;
+  }
+  .headingLevel3--title-carousel-especial {
+    font-size: 23px;
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .headingLevel1--section-texto-seo {
+    font-size: 15px;
+  }
+  .headingLevel1--section-texto-seo::after {
+    margin: 0 0 0 0.5rem;
+  }
+  .headingLevel1--section-texto-seo::before {
+    margin: 0 0.5rem 0 0;
+  }
+  .container--title-carousel-especial {
+    justify-content: center;
+  }
+  .headingLevel1--section-texto-seo {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+  .paragraph--footer-title {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+}

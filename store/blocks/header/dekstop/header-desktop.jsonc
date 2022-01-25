@@ -1,0 +1,152 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#topbar",
+      "flex-layout.row#menu",
+      "flex-layout.row#disclaimer-header" 
+    ]
+  },
+  "flex-layout.row#menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "menu-header"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#menu-desktop",
+      "flex-layout.col#spacer",
+      "search-bar#desktop",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#topbar": {
+    "children": [
+      "flex-layout.col#section-contacto",
+      "flex-layout.col#section-tienda"
+    ],
+    "props": {
+      "blockClass": "topbar",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#section-contacto": {
+    "children": [
+      "rich-text#contacto",
+      "rich-text#telefono"
+    ],
+    "props": {
+      "blockClass": "col-contacto",
+      "width": "50%",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#section-tienda": {
+    "children": [
+      "rich-text#horario",
+      "rich-text#tienda"
+    ],
+    "props": {
+      "blockClass": "col-tienda",
+      "width": "50%",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#contacto": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Correo:** [ventas@junaplas.cl](mailto:ventas@junaplas.cl)",
+      "blockClass": "contacto"
+    }
+  },
+  "rich-text#telefono": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Ventas:** [+56 9 8709 2124](tel:+56987092124)",
+      "blockClass": "telefono"
+    }
+  },
+  "rich-text#horario": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Horario atención:** Lunes a viernes : 8:30hrs - 18:30hrs",
+      "blockClass": "horario"
+    }
+  },
+  "rich-text#tienda": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Gerencia:** [+56 9 7858 7630](tel:+56978587630)",
+      "blockClass": "tienda"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "flex-layout.col#menu-desktop":{
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-desktop"
+    ]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": false,
+      "iconLabel":"Mi cuenta",
+      "logInButtonBehavior": "link"
+    }
+  },
+  "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxTopSearches":10,
+      "blockClass": "search-desktop",
+      "autocompleteWidth":1,
+      "maxHistory":10
+    }
+  },
+  "flex-layout.row#disclaimer-header": {
+    "children": [
+      "rich-text#disclaimer-header"
+    ],
+    "props": {
+      "blockClass": "disclaimer-header",
+      "fullWidth": true
+    }
+  },
+  "rich-text#disclaimer-header": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "3% de descuento con medio de pago **Webpay**", 
+      "blockClass": "disclaimer-header"
+    }
+  }
+} 

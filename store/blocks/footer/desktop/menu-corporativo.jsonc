@@ -1,0 +1,79 @@
+{
+  "vtex.menu@2.x:menu#corporativo": {
+    "children": [
+      "menu-item#nuestra-corporativo",
+      "menu-item#nuestra-empresa",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#politicas-de-privacidad",
+      "menu-item#terminos-y-condiciones"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#nuestra-corporativo": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Corporativo",
+        "text": "Corporativo"
+      }
+    }
+  },
+  "menu-item#nuestra-empresa": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa",
+        "noFollow": true,
+        "tagTitle": "Nuestra empresa",
+        "text": "Nuestra empresa"
+      }
+    }
+  },
+  "menu-item#terminos-y-condiciones": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#politicas-de-privacidad": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": true,
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
+  }
+}

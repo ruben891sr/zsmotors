@@ -1,0 +1,522 @@
+{
+    "vtex.menu@2.x:menu#submenu-catalogo": {
+        "children": [
+            "menu-item#bolsas",
+            "menu-item#potes",
+            "menu-item#vasos",
+            "menu-item#capsulas-y-moldes",
+            "menu-item#envases-termicos",
+            "menu-item#envases-biodegradables",
+            "menu-item#envases-termoformados",
+            "menu-item#platos-cubiertos-y-servilletas",
+            "menu-item#cajas-de-carton",
+            "menu-item#bandejas-y-blondas",
+            "menu-item#frascos",
+            "menu-item#manteles",
+            "menu-item#selladoras",
+            "menu-item#mallas-plasticas",
+            "menu-item#mangas-plasticas",
+            "menu-item#film-para-alimento",
+            "menu-item#cintas-de-embalaje",
+            "menu-item#hilos-y-elasticos",
+            "menu-item#articulos-para-embalar",
+            "menu-item#articulos-de-papel",
+            "menu-item#articulos-de-aseo",
+            "menu-item#articulos-de-proteccion-e-higiene"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#bolsas": {
+        "props": {
+            "id": "menu-item-bolsas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bolsas",
+                "noFollow": true,
+                "tagTitle": "Bolsas",
+                "text": "Bolsas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#bolsas"
+        ]
+    },
+    "menu-item#potes": {
+        "props": {
+            "id": "menu-item-potes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/potes",
+                "noFollow": true,
+                "tagTitle": "Potes",
+                "text": "Potes"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#potes"
+        ]
+    },
+    "menu-item#vasos": {
+        "props": {
+            "id": "menu-item-vasos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/vasos",
+                "noFollow": true,
+                "tagTitle": "Vasos",
+                "text": "Vasos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#vasos"
+        ]
+    },
+    "menu-item#capsulas-y-moldes": {
+        "props": {
+            "id": "menu-item-capsulas-y-moldes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/capsulas-y-moldes",
+                "noFollow": true,
+                "tagTitle": "Cápsulas y moldes",
+                "text": "Cápsulas y moldes"
+            }
+        }
+        ,
+        "blocks": [
+            "vtex.menu@2.x:submenu#capsulas-y-moldes"
+        ]
+    },
+    "menu-item#envases-termicos": {
+        "props": {
+            "id": "menu-item-envases-termicos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termicos",
+                "noFollow": true,
+                "tagTitle": "Envases térmicos",
+                "text": "Envases térmicos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#envases-termicos"
+        ]
+    },
+    "menu-item#envases-biodegradables": {
+        "props": {
+            "id": "menu-item-envases-biodegradables",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-biodegradables",
+                "noFollow": true,
+                "tagTitle": "Envases biodegradables",
+                "text": "Envases biodegradables"
+            }
+        }
+    },
+    "menu-item#envases-termoformados": {
+        "props": {
+            "id": "menu-item-envases-termoformados",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/envases-termoformados",
+                "noFollow": true,
+                "tagTitle": "Envases termoformados",
+                "text": "Envases termoformados"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#envases-termoformados"
+        ]
+    },
+    "menu-item#platos-cubiertos-y-servilletas": {
+        "props": {
+            "id": "menu-item-platos-cubiertos-y-servilletas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/platos-cubiertos-y-servilletas",
+                "noFollow": true,
+                "tagTitle": "Platos, cubiertos y servilletas",
+                "text": "Platos, cubiertos y servilletas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#platos-cubiertos-y-servilletas"
+        ]
+    },
+    "menu-item#cajas-de-carton": {
+        "props": {
+            "id": "menu-item-cajas-de-carton",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cajas-de-carton",
+                "noFollow": true,
+                "tagTitle": "Cajas de cartón",
+                "text": "Cajas de cartón"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#cajas-de-carton"
+        ]
+    },
+    "menu-item#bandejas-y-blondas": {
+        "props": {
+            "id": "menu-item-bandejas-y-blondas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/bandejas-y-blondas",
+                "noFollow": true,
+                "tagTitle": "Bandejas y blondas",
+                "text": "Bandejas y blondas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#bandejas-y-blondas"
+        ]
+    },
+    "menu-item#frascos": {
+        "props": {
+            "id": "menu-item-frascos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/frascos",
+                "noFollow": true,
+                "tagTitle": "Frascos",
+                "text": "Frascos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#frascos"
+        ]
+    },
+    "menu-item#manteles": {
+        "props": {
+            "id": "menu-item-manteles",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/manteles",
+                "noFollow": true,
+                "tagTitle": "Manteles",
+                "text": "Manteles"
+            }
+        }
+    },
+    "menu-item#selladoras": {
+        "props": {
+            "id": "menu-item-selladoras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/selladoras-portatil",
+                "noFollow": true,
+                "tagTitle": "Selladoras",
+                "text": "Selladoras"
+            }
+        }
+    },
+    "menu-item#mangas-plasticas": {
+        "props": {
+            "id": "menu-item-mangas-plasticas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mangas-plasticas",
+                "noFollow": true,
+                "tagTitle": "Mangas plásticas",
+                "text": "Mangas plásticas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#mangas-plasticas"
+        ]
+    },
+    "menu-item#mallas-plasticas": {
+        "props": {
+            "id": "menu-item-mallas-plasticas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mallas-plasticas",
+                "noFollow": true,
+                "tagTitle": "Mallas plásticas",
+                "text": "Mallas plásticas"
+            }
+        }
+    },
+    "menu-item#film-para-alimento": {
+        "props": {
+            "id": "menu-item-film-para-alimento",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/film-para-alimento",
+                "noFollow": true,
+                "tagTitle": "Film para alimento",
+                "text": "Film para alimento"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#film-para-alimento"
+        ]
+    },
+    "menu-item#cintas-de-embalaje": {
+        "props": {
+            "id": "menu-item-cintas-de-embalaje",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cintas-de-embalaje",
+                "noFollow": true,
+                "tagTitle": "Cintas de embalaje",
+                "text": "Cintas de embalaje"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#cintas-de-embalaje"
+        ]
+    },
+    "menu-item#articulos-para-embalar": {
+        "props": {
+            "id": "menu-item-articulos-para-embalar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-para-embalar",
+                "noFollow": true,
+                "tagTitle": "Artículos para embalar",
+                "text": "Artículos para embalar"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#articulos-para-embalar"
+        ]
+    },
+    "menu-item#articulos-de-papel": {
+        "props": {
+            "id": "menu-item-articulos-de-papel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-papel",
+                "noFollow": true,
+                "tagTitle": "Artículos de papel",
+                "text": "Artículos de papel"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#articulos-de-papel"
+        ]
+    },
+    "menu-item#articulos-de-aseo": {
+        "props": {
+            "id": "menu-item-articulos-de-aseo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-aseo",
+                "noFollow": true,
+                "tagTitle": "Artículos de aseo",
+                "text": "Artículos de aseo"
+            }
+        }
+    },
+    "menu-item#articulos-de-proteccion-e-higiene": {
+        "props": {
+            "id": "menu-item-articulos-de-proteccion-e-higiene",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene",
+                "noFollow": true,
+                "tagTitle": "Artículos de protección e higiene",
+                "text": "Artículos de protección e higiene"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#articulos-de-proteccion-e-higiene"
+        ]
+    },
+    "menu-item#hilos-y-elasticos": {
+        "props": {
+            "id": "menu-item-hilos-y-elasticos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-catalogo-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hilos-y-elasticos",
+                "noFollow": true,
+                "tagTitle": "Hilos y elásticos",
+                "text": "Hilos y elásticos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#hilos-y-elasticos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#bolsas": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-bolsas"
+        ]
+    },
+    "vtex.menu@2.x:submenu#potes": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-potes"
+        ]
+    },
+    "vtex.menu@2.x:submenu#vasos": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-vasos"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#capsulas-y-moldes": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-capsulas-y-moldes"
+        ]
+    },
+    "vtex.menu@2.x:submenu#envases-termicos": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-envases-termicos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#envases-termoformados": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-envases-termoformados"
+        ]
+    },
+    "vtex.menu@2.x:submenu#platos-cubiertos-y-servilletas": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-platos-cubiertos-y-servilletas"
+        ]
+    },
+    "vtex.menu@2.x:submenu#bandejas-y-blondas": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-bandejas-y-blondas"
+        ]
+    },
+    "vtex.menu@2.x:submenu#cajas-de-carton": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-cajas-de-carton"
+        ]
+    },
+    "vtex.menu@2.x:submenu#frascos": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-frascos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#mangas-plasticas": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-mangas-plasticas"
+        ]
+    },
+    "vtex.menu@2.x:submenu#film-para-alimento": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-film-para-alimento"
+        ]
+    },
+    "vtex.menu@2.x:submenu#cintas-de-embalaje": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-cintas-de-embalaje"
+        ]
+    },
+    "vtex.menu@2.x:submenu#articulos-para-embalar": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-articulos-para-embalar"
+        ]
+    },
+    "vtex.menu@2.x:submenu#articulos-de-papel": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-articulos-de-papel"
+        ]
+    },
+    "vtex.menu@2.x:submenu#articulos-de-proteccion-e-higiene": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu-articulos-de-proteccion-e-higiene"
+        ]
+    },
+    "vtex.menu@2.x:submenu#hilos-y-elasticos":{
+        "children": [
+            "vtex.menu@2.x:menu#submenu-hilos-y-elasticos"
+        ]
+    }
+}

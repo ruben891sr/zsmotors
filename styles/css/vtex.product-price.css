@@ -1,0 +1,41 @@
+:global(.vtex-product-price-1-x-sellingPriceValue){
+    font-size: 15px!important;
+    font-family: 'Lato-Bold';
+    color: #3d3d3d;
+    font-weight: 400!important;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+:global(.vtex-product-price-1-x-listPrice) {
+    font-size: 12px;
+    color: #cacaca;
+    font-family: "Lato-Bold";
+    margin-bottom: 0;
+}
+.savings {
+    font-size: 12px;
+    color: #0060AA!important;
+    font-family: "Lato-Bold";
+}
+.savingsPercentage {
+    background-color: #0060AA;
+    color: #ffffff;
+    padding: .2rem 0 .2rem .2rem;
+    position: relative;
+}
+.savingsPercentage::before {
+    content: "% ";
+  }
+  .savingsPercentage::after {
+    content: "";
+    position: relative;
+    width: 7px;
+    height: 10px;
+    display: inline-flex;
+    background-color: #0060AA;
+    margin-left: -9px;
+   
+}

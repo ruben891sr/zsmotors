@@ -1,0 +1,163 @@
+{
+    "vtex.menu@2.x:menu#submenu-articulos-de-proteccion-e-higiene": {
+        "children": [
+            "menu-item#buzos-delantales-y-ponchos",
+            "menu-item#cortinas",
+            "menu-item#cubre-calzado",
+            "menu-item#cubre-ropa",
+            "menu-item#gorros",
+            "menu-item#guantes",
+            "menu-item#mascarillas",
+            "menu-item#proteccion-de-vehiculo",
+            "menu-item#protector-facial"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#guantes": {
+        "props": {
+            "id": "menu-item-guantes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/buzos-delantales-y-ponchos",
+                "noFollow": true,
+                "tagTitle": "Guantes",
+                "text": "Guantes"
+            }
+        }
+    },
+    "menu-item#gorros": {
+        "props": {
+            "id": "menu-item-gorros",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/gorros",
+                "noFollow": true,
+                "tagTitle": "Gorros",
+                "text": "Gorros"
+            }
+        }
+    },
+    "menu-item#buzos-delantales-y-ponchos": {
+        "props": {
+            "id": "menu-item-buzos-delantales-y-ponchos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/buzos-delantales-y-ponchos",
+                "noFollow": true,
+                "tagTitle": "Buzos, delantales y ponchos",
+                "text": "Buzos, delantales y ponchos"
+            }
+        }
+    },
+    "menu-item#proteccion-de-vehiculo": {
+        "props": {
+            "id": "menu-item-proteccion-de-vehiculo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/proteccion-de-vehiculo",
+                "noFollow": true,
+                "tagTitle": "Protección de vehículo",
+                "text": "Protección de vehículo"
+            }
+        }
+    },
+    "menu-item#cubre-calzado": {
+        "props": {
+            "id": "menu-item-cubre-calzado",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/cubre-calzado",
+                "noFollow": true,
+                "tagTitle": "Cubre calzado",
+                "text": "Cubre calzado"
+            }
+        }
+    },
+    "menu-item#cortinas": {
+        "props": {
+            "id": "menu-item-cortinas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/cortinas",
+                "noFollow": true,
+                "tagTitle": "Cortinas",
+                "text": "Cortinas"
+            }
+        }
+    },
+    "menu-item#cubre-ropa": {
+        "props": {
+            "id": "menu-item-cubre-ropa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/cubre-ropa",
+                "noFollow": true,
+                "tagTitle": "Cubre ropa",
+                "text": "Cubre ropa"
+            }
+        }
+    },
+    "menu-item#protector-facial": {
+        "props": {
+            "id": "menu-item-protector-facial",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/protector-facial",
+                "noFollow": true,
+                "tagTitle": "Protector facial",
+                "text": "Protector facial"
+            }
+        }
+    },
+    "menu-item#mascarillas": {
+        "props": {
+            "id": "menu-item-mascarillas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/articulos-de-proteccion-e-higiene/mascarillas",
+                "noFollow": true,
+                "tagTitle": "Mascarillas",
+                "text": "Mascarillas"
+            }
+        }
+    }
+}

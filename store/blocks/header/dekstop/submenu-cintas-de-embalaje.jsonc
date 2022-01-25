@@ -1,0 +1,61 @@
+{
+    "vtex.menu@2.x:menu#submenu-cintas-de-embalaje": {
+        "children": [
+            "menu-item#cintas-plastica-transparente",
+            "menu-item#cintas-plastica-cafe",
+            "menu-item#cintas-maskintape-de-papel"
+        ],
+        "props": {
+            "blockClass": "menu-desktop",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#cintas-plastica-transparente": {
+        "props": {
+            "id": "menu-item-cintas-plastica-transparente",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cintas-de-embalaje/cintas-scotch-plastica-transparente",
+                "noFollow": true,
+                "tagTitle": "Cintas scotch plástica transparente",
+                "text": "Cintas scotch plástica transparente"
+            }
+        }
+    },
+    "menu-item#cintas-plastica-cafe": {
+        "props": {
+            "id": "menu-item-cintas-plastica-cafe",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cintas-de-embalaje/cintas-scotch-plastica-cafe",
+                "noFollow": true,
+                "tagTitle": "Cintas scotch plástica café",
+                "text": "Cintas scotch plástica café"
+            }
+        }
+    },
+    "menu-item#cintas-maskintape-de-papel": {
+        "props": {
+            "id": "menu-item-cintas-maskingtape-de-papel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"submenu-categories-desktop",
+            "itemProps": {
+                "type": "internal",
+                "href": "/cintas-de-embalaje/cintas-maskingtape-de-papel",
+                "noFollow": true,
+                "tagTitle": "Cintas maskingtape de papel",
+                "text": "Cintas maskingtape de papel"
+            }
+        }
+    }
+}

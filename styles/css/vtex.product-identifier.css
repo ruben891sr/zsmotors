@@ -1,0 +1,7 @@
+.product-identifier__label,
+.product-identifier__value,
+.product-identifier__separator {
+  font-family: "Lato";
+  font-size: 14px;
+  color: #3d3d3d;
+}

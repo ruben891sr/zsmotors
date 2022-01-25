@@ -1,0 +1,112 @@
+{
+    "vtex.menu@2.x:menu#servicio-al-cliente": {
+      "children": [
+        "menu-item#servicio-al-cliente-title",
+        "menu-item#preguntas-frecuentes",
+        "menu-item#contacto-sac",
+        "menu-item#tiendas",
+        "menu-item#mis-pedidos",
+        "menu-item#servicio-al-cliente"
+      ],
+      "props":{
+         "blockClass": "menu-footer",
+         "orientation": "vertical"
+      }
+    },
+    "menu-item#servicio-al-cliente-title": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Servicio al cliente",
+          "text": "Servicio al cliente"
+        }
+      }
+    },
+    "menu-item#preguntas-frecuentes": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/preguntas-frecuentes",
+          "noFollow": true,
+          "tagTitle": "Preguntas frecuentes",
+          "text": "Preguntas frecuentes"
+        }
+      }
+    },
+    "menu-item#contacto-sac": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/contacto",
+          "noFollow": true,
+          "tagTitle": "Contacto",
+          "text": "Contacto"
+        }
+      }
+    },
+    "menu-item#tiendas": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas",
+          "noFollow": true,
+          "tagTitle": "Tiendas",
+          "text": "Tiendas"
+        }
+      }
+    },
+    "menu-item#mis-pedidos": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/mis-pedidos",
+          "noFollow": true,
+          "tagTitle": "Mis pedidos",
+          "text": "Mis pedidos"
+        }
+      }
+    },
+    "menu-item#servicio-al-cliente": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/servicio-al-cliente",
+          "noFollow": true,
+          "tagTitle": "Servicio al cliente",
+          "text": "Servicio al cliente"
+        }
+      }
+    }
+}

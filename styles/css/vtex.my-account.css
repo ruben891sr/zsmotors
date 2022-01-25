@@ -1,0 +1,618 @@
+.menuLinks,
+.userGreeting,
+.userName,
+.boxContainerBody,
+:global(.vtex-pageHeader__title),
+.boxContainerFooter :global(.vtex-button__label) {
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+:global(.vtex-pageHeader__title) {
+    font-size: 24px;
+}
+
+.boxContainerBody,
+.userGreeting,
+.userName {
+    font-size: 16px;
+}
+
+.menuLinks :global(.vtex-account_menu-link.b--action-primary) {
+    border-color: #4ea2e2;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) {
+    font-family: "Lato-Bold";
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.w-100) :global(.srconsultores-sr-orderquotes-0-x-currencyContainer),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.w-100) :global(.srconsultores-sr-orderquotes-0-x-currencyContainer) {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.ReactVirtualized__Grid__innerScrollContainer)>div>span {
+    text-align: center;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.vtex-pageHeader__title),
+:global(.srconsultores-sr-orderquotes-0-x-containerView) :global(.vtex-pageHeader__title) {
+    font-size: 20px;
+    color: #000000;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerView) :global(.vtex-pageHeader__title) {
+    display: none;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerView) :global(.noPrinting) {
+    margin-bottom: 0.5rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) {
+    position: relative;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea)::after {
+    content: "Detalle de la Cotización";
+    position: absolute;
+    top: -38px;
+    font-size: 20px;
+    color: #000000;
+    left: 2rem;
+    font-weight: 700;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.srconsultores-sr-orderquotes-0-x-refreshButton) :global(.vtex-button) {
+    border: 1px solid #0060aa;
+    border-radius: 0px;
+    font-family: "Lato-Bold";
+    padding: 0.5rem 0;
+    text-transform: initial;
+    background: transparent;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.srconsultores-sr-orderquotes-0-x-refreshButton) :global(.vtex-button):hover {
+    background: #4ea2e2;
+    color: #ffffff;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.vtex-button),
+:global(.srconsultores-sr-orderquotes-0-x-buttonSave) :global(.vtex-button),
+:global(.srconsultores-sr-orderquotes-0-x-buttonUse) :global(.vtex-button) {
+    font-family: "Lato-Bold";
+    border-radius: 0px;
+    background: #0060aa;
+    text-transform: initial;
+    margin-left: 1rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.vtex-button):hover,
+:global(.srconsultores-sr-orderquotes-0-x-buttonSave) :global(.vtex-button):hover,
+:global(.srconsultores-sr-orderquotes-0-x-buttonDelete) :global(.vtex-button):hover,
+:global(.srconsultores-sr-orderquotes-0-x-buttonPrint) :global(.vtex-button):hover,
+:global(.srconsultores-sr-orderquotes-0-x-buttonUse) :global(.vtex-button):hover {
+    background: #4ea2e2;
+    color: #ffffff;
+    border: 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.t-heading-4.mt0) {
+    font-family: "Lato-Bold";
+    font-size: 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.w-100) {
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: #000000;
+    border-color: #cacaca;
+    text-transform: uppercase;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.TopRightGrid_ScrollWrapper) {
+    font-weight: 700;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) :global(.t-heading-4.mt0)::after {
+    content: "No existen cotizaciones.";
+    font-size: 20px;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerList) :global(.flex.flex-row.mv3) {
+    padding: 0 1rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-inputCreate) :global(.vtex-input__label),
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea__label),
+:global(.srconsultores-sr-orderquotes-0-x-inputCreate) :global(.vtex-dropdown__label),
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.t-small.mt2.lh-title.c-muted-1) {
+    font-family: "Lato-Bold";
+    font-size: 16px;
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    background: #e7e7e7;
+    justify-content: center;
+    padding: 3rem 0 1rem;
+    margin: 0 2rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div,
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage)>div:last-child>div {
+    width: 47%;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage) {
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 20px;
+    color: #979899;
+    font-family: "Lato-Bold";
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea)>textarea {
+    height: 38px;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:first-child :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span::before,
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage) :global(.vtex-input__label)::before {
+    content: "Nombre de la Cotización";
+    font-size: 16px;
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea) :global(.vtex-textarea__label)::before {
+    content: "Comentarios";
+    font-size: 16px;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(9) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span::before {
+    content: "Razón Social";
+    font-size: 16px;
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(10) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span::before {
+    content: "Giro";
+    font-size: 16px;
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(12) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span::before {
+    content: 'Agregar dirección completa de facturación: "Dirección, Ciudad, Comuna"';
+    font-size: 16px;
+    color: #767575;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage) :global(.vtex-input__label),
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea) :global(.vtex-textarea__label),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:first-child :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(9) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(10) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(12) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>label>span,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.vtex-pageHeader__title) {
+    font-size: 0px;
+    text-align: initial;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea) {
+    position: relative;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea)>div>div:last-child {
+    position: absolute;
+    right: 0;
+    font-size: 0.75rem !important;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(15),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(16),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(17) {
+    width: 90%;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(17) {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(15) {
+    background: #ffffff;
+    margin-top: 3rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(16) {
+    background: #ffffff;
+    padding-bottom: 2rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>hr,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(8),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(13),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(4) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>div>label>div>select>option:nth-child(2),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(4) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>div>label>div>select>option:nth-child(3),
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div:nth-child(4) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>div>label>div>select>option:nth-child(5),
+:global(.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)::before,
+:global(.flex.flex-column.w-100.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container)>div:first-child:after,
+:global(.flex.flex-column.w-100.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container)>div:first-child:before {
+    display: none;
+}
+
+div:nth-child(4) :global(.srconsultores-sr-orderquotes-0-x-inputCreate)>div>label>div>select>option:nth-child(6)::after {
+    content: "Pasaporte";
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-inputCreate) :global(.vtex-styleguide-9-x-input),
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage) :global(.vtex-styleguide-9-x-input) {
+    font-family: "Lato";
+    font-size: 16px;
+    border-radius: 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage) :global(.vtex-input-prefix__group),
+:global(.srconsultores-sr-orderquotes-0-x-inputCreate) :global(.vtex-input-prefix__group),
+:global(.srconsultores-sr-orderquotes-0-x-descriptionContainer) :global(.vtex-textarea__input),
+:global(.srconsultores-sr-orderquotes-0-x-inputCreate) :global(.vtex-styleguide-9-x-container) {
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) [data-testid="totalizer-container"],
+:global(.srconsultores-sr-orderquotes-0-x-totalizerContainer) [data-testid="totalizer-container"] {
+    border-radius: 0;
+    font-family: "Lato-Bold";
+    flex-direction: column;
+    border: 0;
+}
+
+[data-testid="totalizer-container"]>div {
+    align-items: flex-end;
+    padding: 0;
+    border: 0;
+    width: 92%;
+}
+
+[data-testid="totalizer-container"] [data-testid="totalizer-label"] {
+    font-size: 1rem;
+    color: #000000;
+}
+
+[data-testid="totalizer-container"] [data-testid="totalizer-value"] {
+    text-align: end;
+    font-size: 1rem;
+}
+
+[data-testid="totalizer-container"] [data-testid="totalizer-item-total"] div {
+    font-weight: 700;
+    margin-top: 0.2rem;
+}
+
+[data-testid="totalizer-container"] :global(.item_container) {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.vtex-table__container) {
+    margin-top: 2rem;
+}
+
+:global(.flex.flex-column.w-100.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) {
+    margin-top: 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(10),
+:global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(14) {
+    margin-top: 2rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-checkboxClear) :global(.vtex-checkbox__label) {
+    font-family: "Lato-Bold";
+    font-size: 14px;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-checkboxClear) :global(.vtex-checkbox__inner-container) {
+    border: 1px solid #006900;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerView) {
+    font-family: "Lato";
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-buttonDelete) :global(.vtex-button),
+:global(.srconsultores-sr-orderquotes-0-x-buttonPrint) :global(.vtex-button) {
+    border: 1px solid #0060aa;
+    border-radius: 0px;
+    font-family: "Lato-Bold";
+    text-transform: initial;
+    background: transparent;
+    color: #0060aa;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.vtex-pageHeader__title)::before {
+    content: "Crear Cotización";
+    font-size: 20px;
+    color: #000000;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-currencyContainer) {
+    color: #000000;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate.pv6.ph4.mw9.center) :global(.vtex-pageHeader__container),
+:global(.srconsultores-sr-orderquotes-0-x-containerList.mw9.center) :global(.vtex-pageHeader__container) {
+    padding-top: 0;
+}
+
+:global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div>span {
+    text-align: center;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div:nth-child(3)>span,
+:global(.srconsultores-sr-orderquotes-0-x-containerCreate) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div:nth-child(5)>span,
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div:nth-child(3)>span,
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div:nth-child(5)>span {
+    width: 48%;
+    text-align: end;
+}
+
+:global(.mb5.srconsultores-sr-orderquotes-0-x-listContainer) {
+    margin-top: 2rem;
+    background: #e7e7e7;
+    padding: 3rem 2rem 3rem;
+}
+
+:global(.flex.flex-column.w-100.mb5.srconsultores-sr-orderquotes-0-x-listContainer) {
+    background: transparent;
+    padding: 0;
+}
+
+:global(.flex.flex-column.w-100.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) {
+    padding: 0;
+}
+
+:global(.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container) {
+    background: #ffffff;
+    position: relative;
+    padding: 1rem 2rem 2rem;
+}
+
+:global(.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container)>div:first-child::before {
+    content: "Listado de cotizaciones";
+    position: absolute;
+    top: -34px;
+    display: flex;
+    margin-left: 1.7rem;
+    width: 100%;
+    left: 0;
+    font-size: 20px;
+}
+
+:global(.ReactVirtualized__Grid__innerScrollContainer)> :global(.flex.items-center.w-100.h-100.ph4.bb.b--muted-4.truncate) {
+    width: 100%;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+:global(.mb5.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container)>div:first-child:after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='24' height='24' x='0' y='0' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m448 488h-384v-464h352a32 32 0 0 1 32 32z' fill='%230060aa' data-original='%23fbe9d8' style='' class=''/%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m168 208a80 80 0 1 1 80-80 80.091 80.091 0 0 1 -80 80zm0-144a64 64 0 1 0 64 64 64.072 64.072 0 0 0 -64-64z' fill='%23ffffff' data-original='%23e3d3c2' style='' class=''/%3E%3Cg xmlns='http://www.w3.org/2000/svg' fill='%23bfb1a3'%3E%3Cpath d='m328 424a8 8 0 0 0 8 8h64a8 8 0 0 0 0-16h-64a8 8 0 0 0 -8 8z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m400 448h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m192 144a24.028 24.028 0 0 0 -24-24 8 8 0 1 1 8-8 8 8 0 0 0 16 0 24.039 24.039 0 0 0 -16-22.624v-1.376a8 8 0 0 0 -16 0v1.376a24 24 0 0 0 8 46.624 8 8 0 1 1 -8 8 8 8 0 0 0 -16 0 24.039 24.039 0 0 0 16 22.624v1.376a8 8 0 0 0 16 0v-1.376a24.039 24.039 0 0 0 16-22.624z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 240h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 240h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 256h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 272h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 272h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 288h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 304h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 304h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 320h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 336h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 336h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 352h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 368h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m328 376a8 8 0 0 0 -8-8h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 8-8z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 384h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 144h80a8 8 0 0 0 0-16h-80a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m280 176h120a8 8 0 0 0 0-16h-120a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m280 208h120a8 8 0 0 0 0-16h-120a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3C/g%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m448 56v32h-48v-40a24.006 24.006 0 0 0 -24-24h40a32 32 0 0 1 32 32z' fill='%23ffffff' data-original='%23e3d3c2' style='' class=''/%3E%3C/g%3E%3C/svg%3E%0A");
+    position: absolute;
+    top: -36px;
+    left: 0;
+    justify-content: center;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) {
+    background: #e7e7e7;
+    padding: 3rem;
+    margin: 0 2rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea)>div:first-child {
+    padding: 0 3rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.vtex-table__container)>div:nth-child(2) {
+    padding: 1.5rem 2rem 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-listContainer) :global(.TopRightGrid_ScrollWrapper) :global(.ReactVirtualized__Grid__innerScrollContainer)>div:first-child {
+    width: 180px !important;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field) {
+    width: 100%;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(1),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(2),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(4),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(5),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(6),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(7),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(8),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(10),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(18),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2)>hr,
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:first-child,
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(3) {
+    display: none;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(14) {
+    margin-top: 0;
+    position: relative;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(14)>span,
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(15)>span {
+    font-size: 0;
+}
+
+:global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(14)>span:first-child::before {
+    content: "Razón Social";
+    font-size: 16px;
+}
+
+:global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(15)>span:first-child::before {
+    content: "Giro";
+    font-size: 16px;
+}
+
+:global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(14)>span:first-child::after {
+    content: " :";
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+    background: #e7e7e7;
+}
+
+:global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(12)>span:last-child {
+    margin-left: 0.5rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5) {
+    width: 100%;
+    order: 5;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field)>div:nth-child(5)>div:nth-child(1),
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea)::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='24' height='24' x='0' y='0' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m448 488h-384v-464h352a32 32 0 0 1 32 32z' fill='%230060aa' data-original='%23fbe9d8' style='' class=''/%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m168 208a80 80 0 1 1 80-80 80.091 80.091 0 0 1 -80 80zm0-144a64 64 0 1 0 64 64 64.072 64.072 0 0 0 -64-64z' fill='%23ffffff' data-original='%23e3d3c2' style='' class=''/%3E%3Cg xmlns='http://www.w3.org/2000/svg' fill='%23bfb1a3'%3E%3Cpath d='m328 424a8 8 0 0 0 8 8h64a8 8 0 0 0 0-16h-64a8 8 0 0 0 -8 8z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m400 448h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m192 144a24.028 24.028 0 0 0 -24-24 8 8 0 1 1 8-8 8 8 0 0 0 16 0 24.039 24.039 0 0 0 -16-22.624v-1.376a8 8 0 0 0 -16 0v1.376a24 24 0 0 0 8 46.624 8 8 0 1 1 -8 8 8 8 0 0 0 -16 0 24.039 24.039 0 0 0 16 22.624v1.376a8 8 0 0 0 16 0v-1.376a24.039 24.039 0 0 0 16-22.624z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 240h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 240h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 256h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 272h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 272h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 288h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 304h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 304h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 320h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 336h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 336h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 352h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m144 368h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m328 376a8 8 0 0 0 -8-8h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 8-8z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m384 384h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m320 144h80a8 8 0 0 0 0-16h-80a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m280 176h120a8 8 0 0 0 0-16h-120a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3Cpath d='m280 208h120a8 8 0 0 0 0-16h-120a8 8 0 0 0 0 16z' fill='%23ffffff' data-original='%23bfb1a3' style='' class=''/%3E%3C/g%3E%3Cpath xmlns='http://www.w3.org/2000/svg' d='m448 56v32h-48v-40a24.006 24.006 0 0 0 -24-24h40a32 32 0 0 1 32 32z' fill='%23e7e7e7' data-original='%23e3d3c2' style='' class=''/%3E%3C/g%3E%3C/svg%3E%0A");
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-totalizerContainer) {
+    background: #ffffff;
+    margin-top: 0;
+    padding: 1rem 2rem 2.5rem;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-totalizerContainer)>table {
+    width: 93%;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(1) {
+    order: 1;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(2) {
+    order: 3;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(4) {
+    order: 4;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div :global(.mb2.srconsultores-sr-orderquotes-0-x-field):nth-child(3) {
+    display: block;
+}
+
+:global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div :global(.mb2.srconsultores-sr-orderquotes-0-x-field) {
+    margin-bottom: 1rem;
+}
+
+:global(.junaplascl-conditional-product-image-0-x-triggerTecnica) {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #183152;
+    margin-bottom: 0.75rem;
+    font-family: "Lato-Bold";
+    font-size: 0.9rem;
+    position: relative;
+    display: flex;
+    line-height: 1;
+    align-items: center;
+}
+
+:global(.junaplascl-conditional-product-image-0-x-triggerTecnica)::before {
+    content: "";
+    background-image: url("assets/document.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+     :global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child>div,
+     :global(.srconsultores-sr-orderquotes-0-x-notAuthenticatedMessage)>div:last-child>div {
+        width: 90%;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) {
+        flex-direction: column;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field)>div:nth-child(5)>div:nth-child(1),
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields)>div:nth-child(5)>div:nth-child(2) {
+        display: block;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea) :global(.srconsultores-sr-orderquotes-0-x-containerFields) :global(.mb2.srconsultores-sr-orderquotes-0-x-field) {
+        width: 100%;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea)>div:first-child {
+        padding: 0;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-buttonContainerView) {
+        margin-bottom: 2rem;
+        margin-left: 1.2rem;
+    }
+    [data-testid="totalizer-container"] :global(.item_container) {
+        width: 90%;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-printingArea) {
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+     :global(.srconsultores-sr-orderquotes-0-x-containerCreate)>div:last-child {
+        margin: 0 1rem;
+    }
+     :global(.vtex-store-components-3-x-portalWrapper--search-mobile>div) {
+        top: 68px !important;
+        border-top: 1px solid #ccc;
+    }
+     :global(.vtex-flex-layout-0-x-flexRowContent--wrapper-btns-plp-mobile)>div:last-child {
+        display: none !important;
+    }
+     :global(.vtex-flex-layout-0-x-flexRowContent--wrapper-btns-plp-mobile)>div:first-child {
+        width: 100% !important;
+    }
+}

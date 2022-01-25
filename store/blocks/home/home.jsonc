@@ -1,0 +1,653 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#main-banner-slider",
+      "flex-layout.row#section-icons",
+      "flex-layout.row#section-calugas",
+      "flex-layout.row#title-carousel-mas-vendidos",
+      "flex-layout.row#section-carousel-mas-vendidos",
+      "flex-layout.row#section-carousel-especial",
+      "flex-layout.row#section-banner-descto"
+    ]
+  },
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#main-banner-slider",
+      "flex-layout.row#section-icons",
+      "flex-layout.row#section-calugas",
+      "flex-layout.row#title-carousel-mas-vendidos",
+      "flex-layout.row#section-carousel-mas-vendidos",
+      "flex-layout.row#section-carousel-especial",
+      "flex-layout.row#section-banner-descto"
+    ]
+  },
+  "flex-layout.row#main-banner-slider": {
+    "children": [
+      "list-context.image-list#slider-banner"
+    ],
+    "props": {
+      "blockClass": "main-banner-slider",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "list-context.image-list#slider-banner": {
+    "children": [
+      "slider-layout#banners"
+    ],
+    "props": {
+      "blockClass": "images-main-banner",
+      "width": "100%",
+      "height": 500,
+      "images": [
+        {
+          "image": "assets/home/bolsas-papel.png",
+          "description": "bolsas de papel"
+        },
+        {
+          "image": "assets/home/dieciocho-banner.png",
+          "description": "diecicho de septiembre"
+        },
+        {
+          "image": "assets/home/Navidad-banner.png",
+          "description": "navidad"
+        }
+      ]
+    }
+  },
+  "slider-layout#banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "arrowSize": 10,
+      "fullWidth": true,
+      "blockClass": "main-banner"
+    }
+  },
+  "flex-layout.row#section-icons": {
+    "children": [
+      "slider-layout#home-icon"
+    ],
+    "props": {
+      "blockClass": "main-icon-slider",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "slider-layout#home-icon": {
+    "children": [
+      "info-card#icon-bolsas",
+      "info-card#icon-potes",
+      "info-card#icon-vasos",
+      "info-card#icon-moldes",
+      "info-card#icon-envases-termicos",
+      "info-card#icon-envases-bio",
+      "info-card#icon-envases-termoformados",
+      "info-card#icon-platos-y-cubiertos",
+      "info-card#icon-caja",
+      "info-card#icon-bandejas-blondas",
+      "info-card#icon-frascos",
+      "info-card#icon-manteles",
+      "info-card#icon-selladoras",
+      "info-card#icon-manga",
+      "info-card#icon-film",
+      "info-card#icon-cintas-de-embalaje",
+      "info-card#icon-articulos-para-embalar",
+      "info-card#icon-articulos-de-papel",
+      "info-card#icon-articulos-de-aseo",
+      "info-card#icon-proteccion"
+    ],
+    "props": {
+      "infinite": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "info-card#icon-bolsas": {
+    "props": {
+      "imageUrl": "assets/home/bolsas-blue.svg",
+      "id": "info-card-bolsas",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Bolsas",
+      "callToActionUrl": "/bolsas",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-potes": {
+    "props": {
+      "imageUrl": "assets/home/potes-blue.svg",
+      "id": "info-card-potes",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Potes",
+      "callToActionUrl": "/potes",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-vasos": {
+    "props": {
+      "imageUrl": "assets/home/vasos-blue.svg",
+      "id": "info-card-vasos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Vasos",
+      "callToActionUrl": "/vasos",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-moldes": {
+    "props": {
+      "imageUrl": "assets/home/moldes-blue.svg",
+      "id": "info-card-capsulas-y-moldes",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Cápsulas y moldes",
+      "callToActionUrl": "/capsulas-y-moldes",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-envases-termicos": {
+    "props": {
+      "imageUrl": "assets/home/envases-termicos-blue.svg",
+      "id": "info-card-envases-termicos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Envases térmicos",
+      "callToActionUrl": "/envases-termicos",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-envases-bio": {
+    "props": {
+      "imageUrl": "assets/home/envases-bio-blue.svg",
+      "id": "info-card-envases-bio",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Envases biodegradables",
+      "callToActionUrl": "/envases-biodegradables",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-envases-termoformados": {
+    "props": {
+      "imageUrl": "assets/home/envases-termoformados-blue.svg",
+      "id": "info-card-envases-termoformados",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Envases termoformados",
+      "callToActionUrl": "/envases-termoformados",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-platos-y-cubiertos": {
+    "props": {
+      "imageUrl": "assets/home/platos-y-cubiertos-blue.svg",
+      "id": "info-card-platos-y-cubiertos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Platos y cubiertos",
+      "callToActionUrl": "/platos-y-cubiertos",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-caja": {
+    "props": {
+      "imageUrl": "assets/home/cajas-blue.svg",
+      "id": "info-card-caja",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Cajas de cartón",
+      "callToActionUrl": "/caja",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-bandejas-blondas": {
+    "props": {
+      "imageUrl": "assets/home/bandejas-blondas-blue.svg",
+      "id": "info-card-bandejas-blondas",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Bandejas y blondas",
+      "callToActionUrl": "/bandejas-blondas",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-frascos": {
+    "props": {
+      "imageUrl": "assets/home/frascos-blue.svg",
+      "id": "info-card-frascos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Frascos",
+      "callToActionUrl": "/frascos",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-manga": {
+    "props": {
+      "imageUrl": "assets/home/mangas-blue.svg",
+      "id": "info-card-manga",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Mangas",
+      "callToActionUrl": "/mangas",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-film": {
+    "props": {
+      "imageUrl": "assets/home/film-blue.svg",
+      "id": "info-card-film",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Film para alimento",
+      "callToActionUrl": "/film",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-cintas-de-embalaje": {
+    "props": {
+      "imageUrl": "assets/home/scotch-blue.svg",
+      "id": "info-card-scotch",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Cintas de embalaje",
+      "callToActionUrl": "/cintas-de-embalaje",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-articulos-para-embalar": {
+    "props": {
+      "imageUrl": "assets/home/articulos-para-embalar-blue.svg",
+      "id": "info-card-scotch",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Artículos para embalar",
+      "callToActionUrl": "/articulos-para-embalar",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-articulos-de-papel": {
+    "props": {
+      "imageUrl": "assets/home/articulos-de-papel-blue.svg",
+      "id": "info-card-scotch",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Artículos de papel",
+      "callToActionUrl": "/articulos-de-papel",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-articulos-de-aseo": {
+    "props": {
+      "imageUrl": "assets/home/articulos-de-aseo-blue.svg",
+      "id": "info-card-scotch",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Artículos de aseo",
+      "callToActionUrl": "/articulos-de-aseo",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-proteccion": {
+    "props": {
+      "imageUrl": "assets/home/proteccion-blue.svg",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Artículos de protección e higiene",
+      "callToActionUrl": "/proteccion",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-manteles": {
+    "props": {
+      "imageUrl": "assets/home/manteles-blue.svg",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Manteles",
+      "callToActionUrl": "/manteles",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "info-card#icon-selladoras": {
+    "props": {
+      "imageUrl": "assets/home/selladoras-blue.svg",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionText": "Selladoras",
+      "callToActionUrl": "/selladoras",
+      "callToActionMode": "link",
+      "blockClass": "icon-image"
+    }
+  },
+  "flex-layout.row#section-calugas": {
+    "children": [
+      "slider-layout#calugas"
+    ],
+    "props": {
+      "blockClass": "main-calugas-slider"
+    }
+  },
+  "slider-layout#calugas": {
+    "children": [
+      "info-card#caluga-proteccion-higiene",
+      "info-card#caluga-carton-papel",
+      "info-card#caluga-plumavit",
+      "info-card#caluga-madera",
+      "info-card#caluga-aluminio",
+      "info-card#caluga-pe-pet-pp"
+    ],
+    "props": {
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "phone": 1
+      },
+      "arrowSize": 10,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "calugas"
+    }
+  },
+  "info-card#caluga-proteccion-higiene": {
+    "props": {
+      "imageUrl": "assets/home/higiene.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/proteccion",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#caluga-carton-papel": {
+    "props": {
+      "imageUrl": "assets/home/carton.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/carton-y-papel",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#caluga-plumavit": {
+    "props": {
+      "imageUrl": "assets/home/plumavit.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/plumavit",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#caluga-madera": {
+    "props": {
+      "imageUrl": "assets/home/madera.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/madera",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#caluga-aluminio": {
+    "props": {
+      "imageUrl": "assets/home/aluminio.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/aluminio",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "info-card#caluga-pe-pet-pp": {
+    "props": {
+      "imageUrl": "assets/home/PE-PET-PP.png",
+      "id": "info-card-proteccion",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "callToActionUrl": "/pe-pet-pp",
+      "headline": "",
+      "callToActionText": "Ver productos",
+      "callToActionMode": "button",
+      "blockClass": "caluga-image",
+      "textMode": "rich-text"
+    }
+  },
+  "flex-layout.row#title-carousel-mas-vendidos": {
+    "children": [
+      "rich-text#title-carousel-mas-vendidos"
+    ],
+    "props": {
+      "blockClass": "row-title-carousel-mas-vendidos"
+    }
+  },
+  "rich-text#title-carousel-mas-vendidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "### Productos Destacados ###",
+      "blockClass": "title-carousel-mas-vendidos"
+    }
+  },
+  "flex-layout.row#section-carousel-mas-vendidos": {
+    "children": [
+      "list-context.product-list#carousel-mas-vendidos"
+    ],
+    "props": {
+      "blockClass": "row-carousel-mas-vendidos"
+    }
+  },
+  "list-context.product-list#carousel-mas-vendidos": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "children": [
+      "slider-layout#products-mas-vendidos"
+    ],
+    "props": {
+      "category": "9"
+    }
+  },
+  "slider-layout#products-mas-vendidos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "arrowSize": 10,
+      "fullWidth": true,
+      "blockClass": "mas-vendidos"
+    }
+  },
+  "flex-layout.row#section-carousel-especial": {
+    "children": [
+      "flex-layout.col#section-banner-especial",
+      "flex-layout.col#section-carousel-especial"
+    ],
+    "props": {
+      "blockClass": "row-carousel-especial",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#section-banner-especial": {
+    "children": [
+      "image#banner-especial"
+    ],
+    "props": {
+      "blockClass": "col-image-especial",
+      "width": "60%",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#section-carousel-especial": {
+    "children": [
+      "rich-text#title-carousel-especial",
+      "list-context.product-list#carousel-especial"
+    ],
+    "props": {
+      "blockClass": "col-carousel-especial",
+      "width": "40%",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#banner-especial": {
+    "props": {
+      "src": "assets/home/banner-08.jpg"
+    }
+  },
+  "rich-text#title-carousel-especial": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "text": "### Especial Sopaipillas ###",
+      "blockClass": "title-carousel-especial"
+    }
+  },
+  "list-context.product-list#carousel-especial": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "children": [
+      "slider-layout#carousel-especial"
+    ],
+    "props": {
+      "category": "109"
+    }
+  },
+  "slider-layout#carousel-especial": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "arrowSize": 10,
+      "fullWidth": true,
+      "blockClass": "especial"
+    }
+  },
+  "flex-layout.row#section-banner-descto": {
+    "children": [
+      "image#banner-descto"
+    ],
+    "props": {
+      "blockClass": "row-banner-descto",
+      "fullWidth": true
+    }
+  },
+  "image#banner-descto": {
+    "props": {
+      "src": "assets/home/banner-cumple.png",
+      "maxWidth": 1920,
+      "alt": "banner descuentos",
+      "blockClass": "image-descto"
+    }
+  },
+  "flex-layout.row#section-texto-seo": {
+    "children": [
+      "flex-layout.col#section-texto-seo"
+    ],
+    "props": {
+      "blockClass": "row-banner-seo"
+    }
+  },
+  "flex-layout.col#section-texto-seo": {
+    "children": [
+      "rich-text#texto-seo",
+      "rich-text#texto-seo-dpto"
+    ],
+    "props": {
+      "blockClass": "col-texto-seo"
+    }
+  },
+  "rich-text#texto-seo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# Categorías más buscadas # \n En [Junaplas](/) nos dedicamos a la comercialización y distribución de embalajes y envases desechables para alimentos, y otros. Además contamos con artículos de cotillón y fiestas.",
+      "blockClass": "section-texto-seo"
+    }
+  },
+  "rich-text#texto-seo-dpto": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**[Bolsas ](/bolsas) | [Potes ](/potes) | [Vasos ](/vasos) | [Cápsulas y Moldes](/capsulas-y-moldes) | [Envases Térmicos](/envases-termicos) | [Envases Biodegradables](/envases-biodegradables) | [Envases Termoformados](/envases-termoformados) | [Platos, Cubiertos y Servilletas](/platos-cubiertos-y-servilletas) | [Cajas de Cartón](/cajas-de-carton) | [Bandejas y Blondas](/bandejas-y-blondas) | [Frascos](/frascos) | [Manteles](/manteles) | [Selladoras](/selladoras-portatil) | [Mallas Plásticas](/mallas-plasticas) | [Mangas Plásticas](/mangas-plasticas) | [Film para alimento](/film-para-alimento) | [Cintas de Embalaje](/cintas-de-embalaje) | [Hilos y Elásticos](/hilos-y-elasticos) | [Artículos para Embalar](/articulos-para-embalar) | [Artículos de Papel](/articulos-de-papel) | [Artículos de aseo](/articulos-de-aseo) | [Artículos de Protección e Higiene](/articulos-de-proteccion-e-higiene)**",
+      "blockClass": "section-texto-seo-dpto"
+    }
+  }
+}
