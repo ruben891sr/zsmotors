@@ -1,40 +1,6 @@
 {
     "store.custom#nosotros": {
         "blocks": [
-            "flex-layout.row#nosotros"
         ]
-    },
-    "flex-layout.row#nosotros": {
-        "children": [
-            "flex-layout.col#nosotros"
-        ],
-        "props": {
-          "blockClass": "junaplas-nosotros",
-          "fullWidth": true
-        }
-    },
-    "flex-layout.col#nosotros": {
-        "children": [
-            "image#junaplas-image",
-            "rich-text#nosotros-title",
-            "rich-text#about-nosotros"
-            
-        ]
-    },
-    "rich-text#nosotros-title": {
-        "props": {
-            "text": "Nosotros",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass":"nosotros-title"
-        }
-    },
-    "rich-text#about-nosotros": {
-        "props": {
-            "text": " JUNAPLAS LTDA.- somos una empresa destinada a la comercialización de envases pequeños ( de fabricación propia y otros de distribución externa ), utilizadas en forma habitual por la dueña de casa y su grupo familiar; el comercio y la pequeña y mediana empresa. \n\n  Junaplas nace como una distribuidora de bolsas plásticas (razón social bajo el nombre de su dueño y creador) en octubre de 1982, en avda. Santa Rosa #7890, comuna de La Granja, atendida por una dependiente al mesón y administrada por su propio dueño, cuenta con un stock mínimo (lejos de lo necesario), de acuerdo a los recursos y espacio disponible ( local de 25 mt2).\n\n  Influenciado por las peticiones de sus clientes y con expectativas de crecimiento, se incursiono en el rubro de otros envases plásticos, papel y cartón; lo que en definitiva genera un crecimiento que permite invertir en maquinaria usada e instalar una pequeña planta de bolsas plásticas en 1995, en la comuna de San Bernardo.\n\n  En febrero de 1996, nace nuestra actual razón social, “Junaplas ltda.” Y comienza un periodo en el cual se busca crecer por medio de dos frentes. Se abren nuevas sucursales para tener una cobertura mayor y además se establece un nivel de precios preferencial; destinada solo a pequeños distribuidores.En febrero de 1996, nace nuestra actual razón social, “Junaplas ltda.” Y comienza un periodo en el cual se busca crecer por medio de dos frentes. Se abren nuevas sucursales para tener una cobertura mayor y además se establece un nivel de precios preferencial; destinada solo a pequeños distribuidores.\n En diciembre de 2001, se compra la propiedad de avda. Lo Ovalle #621, en san miguel, en donde luego de seis meses de remodelación, se instala la administración, planta de producción, bodega central y una sala de ventas. \n\n  Nuestro personal esta instruido de atender con el máximo de diligencia y responsabilidad a las peticiones de nuestros clientes. \n\n  En la actualidad disponemos de personal y equipos de producción que nos permiten conseguir artículos de calidad, en una constante mejora continua. \n\n  Además, grandes empresas nacionales y del exterior, nos permiten comercializar productos de gran calidad en condiciones preferentes; gestión que el dueño y gerente de la empresa se encarga de gestionar para el beneficio de sus clientes.",
-            "textAlignment": "LEFT",
-            "textPosition": "CENTER",
-            "blockClass":"nosotros-text"
-        }
     }
 }

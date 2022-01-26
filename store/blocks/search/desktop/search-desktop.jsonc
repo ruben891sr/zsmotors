@@ -59,11 +59,11 @@
     "props": {
       "width": "100%",
       "blockClass": "search-category"
-    }
+    } 
   },
   "image#category": {
     "props": {
-      "src": "assets/banner-categoria.jpg",
+      "src": "",
       "blockClass": "image-category"
     }
   },
